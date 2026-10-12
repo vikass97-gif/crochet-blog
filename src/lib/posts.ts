@@ -3,7 +3,7 @@ export type Post = {
   title: string;
   category: string;
   description: string;
-  sections: { heading: string; text: string }[];
+  sections: { heading: string; text: string; image?: { src: string; alt: string; caption: string } }[];
   faqs: { question: string; answer: string }[];
   references: { title: string; url: string }[];
 };
@@ -93,59 +93,151 @@ export const posts: Post[] = [
     "slug": "how-to-read-a-crochet-pattern",
     "title": "How to Read a Crochet Pattern Without Feeling Lost",
     "category": "Learn the basics",
-    "description": "Learn to read crochet patterns with worked examples of abbreviations, repeats, turning chains, stitch counts, gauge, charts, and troubleshooting.",
+    "description": "Read a crochet pattern step by step with original illustrations: terminology, abbreviations, foundations, turning chains, repeats, stitch placement, rounds, and garment notes.",
     "sections": [
       {
         "heading": "Find the information around the first row",
-        "text": "A line such as “ch 7, sc in second ch from hook” can feel less like instructions and more like a code. The useful starting point is the pattern’s key: it tells you what the abbreviations mean and whether the stitch names are US or UK.\n\nThen check the materials, measurements, construction, and finishing notes. Knowing whether you are making a flat piece, working in rounds, or joining separate parts gives each row a purpose. Below, we work through a six-stitch example and a repeat that increases six stitches to nine, so you can see how the shorthand becomes a sequence of actions."
+        "text": "A line such as “ch 7, sc in second ch from hook” can feel less like instructions and more like a code. The useful starting point is the pattern’s key: it tells you what the abbreviations mean and whether the stitch names are US or UK.\n\nThen check the materials, measurements, construction, and finishing notes. Knowing whether you are making a flat piece, working in rounds, or joining separate parts gives each row a purpose. Below, we work through a six-stitch example and a repeat that increases six stitches to nine, so you can see how the shorthand becomes a sequence of actions.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-01.svg",
+          "alt": "Before row one. Materials Construction Finishing Yarn + hook + tools Rows, rounds or pieces? Joining and care notes",
+          "caption": "Before row one — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Check whether the pattern uses US or UK terms",
-        "text": "US and UK crochet terminology use some of the same names for different stitches. For example, a US single crochet is called a double crochet in UK terminology. Check the system stated in your pattern before working any stitch.\n\nThis blog uses US terminology unless a page says otherwise. When you move between tutorials from different creators, check again. If the terminology is not stated, look for a glossary or ask the designer instead of guessing."
+        "text": "US and UK crochet terminology use some of the same names for different stitches. For example, a US single crochet is called a double crochet in UK terminology. Check the system stated in your pattern before working any stitch.\n\nThis blog uses US terminology unless a page says otherwise. When you move between tutorials from different creators, check again. If the terminology is not stated, look for a glossary or ask the designer instead of guessing.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-02.svg",
+          "alt": "One stitch, two naming systems. US sc = UK dc US hdc = UK htr US dc = UK tr Single crochet Half double crochet Double crochet",
+          "caption": "One stitch, two naming systems — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Read the pattern in three passes",
-        "text": "On the first pass, look at the whole project: materials, size, construction, and finishing. On the second, underline the instructions that may need extra attention, such as a change of stitch, a join, or a different treatment of the turning chain. On the third, prepare only the next row you will actually work.\n\nKeep a separate note of decisions you make, including the chosen size and any substitutions. If the pattern provides several sizes in one line, circle or highlight the numbers for your size throughout the document. Switching between sizes halfway through can produce a mismatch even when each individual stitch is correct.\n\nBefore starting, check the designer’s page for corrections or an updated file if one is available. Save the version you are using so you can refer to the same instructions when asking for help."
+        "text": "On the first pass, look at the whole project: materials, size, construction, and finishing. On the second, underline the instructions that may need extra attention, such as a change of stitch, a join, or a different treatment of the turning chain. On the third, prepare only the next row you will actually work.\n\nKeep a separate note of decisions you make, including the chosen size and any substitutions. If the pattern provides several sizes in one line, circle or highlight the numbers for your size throughout the document. Switching between sizes halfway through can produce a mismatch even when each individual stitch is correct.\n\nBefore starting, check the designer’s page for corrections or an updated file if one is available. Save the version you are using so you can refer to the same instructions when asking for help.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-03.svg",
+          "alt": "Read with a purpose. 1 / Overview 2 / Decisions 3 / Next row Understand the object Highlight size and notes Follow one line at a time",
+          "caption": "Read with a purpose — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "A small abbreviation key you can use immediately",
-        "text": "For this guide, ch means chain, sc means single crochet, st means stitch, and sts means stitches. Additional US abbreviations you may meet include hdc for half double crochet, dc for double crochet, and sl st for slip stitch. These are names to recognise; learn the movements separately before using them in a project.\n\nWords such as “across,” “turn,” and “each” carry instructions too. “Sc in each st across” tells you both which stitch to make and where to repeat it. “Turn” changes the direction of work for the following row. Do not focus on the abbreviations so closely that you overlook these ordinary words.\n\nSome instructions tell you to work into a space rather than a stitch. A chain space is an opening created by chains in an earlier row or round. Find the stated location before working into it; it is not automatically the next V along the top edge.\n\nKeep this project-specific key beside your work. If the designer defines a special stitch, use that explanation rather than a glossary from a different pattern."
+        "text": "For this guide, ch means chain, sc means single crochet, st means stitch, and sts means stitches. Additional US abbreviations you may meet include hdc for half double crochet, dc for double crochet, and sl st for slip stitch. These are names to recognise; learn the movements separately before using them in a project.\n\nWords such as “across,” “turn,” and “each” carry instructions too. “Sc in each st across” tells you both which stitch to make and where to repeat it. “Turn” changes the direction of work for the following row. Do not focus on the abbreviations so closely that you overlook these ordinary words.\n\nSome instructions tell you to work into a space rather than a stitch. A chain space is an opening created by chains in an earlier row or round. Find the stated location before working into it; it is not automatically the next V along the top edge.\n\nKeep this project-specific key beside your work. If the designer defines a special stitch, use that explanation rather than a glossary from a different pattern.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-04.svg",
+          "alt": "Build a key for this project. ch / chain sc / single crochet st / stitch A completed chain A US stitch name A location or count",
+          "caption": "Build a key for this project — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Translate one instruction into a small action",
-        "text": "Suppose an instruction says to work one single crochet in each stitch across a row. Think of it as a sequence of small actions: find the next stitch, work the specified stitch, and move to the following one. Then check the expected total.\n\nRepeats need the same deliberate approach. Find where the repeat begins, where it ends, and how many times the pattern asks you to work it. Do not assume that parentheses always mean a repeat; use the explanation provided by that pattern."
+        "text": "Suppose an instruction says to work one single crochet in each stitch across a row. Think of it as a sequence of small actions: find the next stitch, work the specified stitch, and move to the following one. Then check the expected total.\n\nRepeats need the same deliberate approach. Find where the repeat begins, where it ends, and how many times the pattern asks you to work it. Do not assume that parentheses always mean a repeat; use the explanation provided by that pattern.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-05.svg",
+          "alt": "Sc in each stitch across. Find next stitch Work one sc Move to the next Locate the top loops Complete the movement Repeat, then count",
+          "caption": "Sc in each stitch across — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Use stitch counts as checkpoints",
-        "text": "When a pattern gives a stitch total, compare it with your work at the end of the row or round. If the numbers do not agree, it is easier to investigate immediately than after adding several more rows.\n\nCheck notes about whether turning chains count as stitches, where the first stitch goes, and how rounds are joined. These details can affect how you interpret the edges of the work. Marking your place in the instructions also helps you return to the correct step after a break."
+        "text": "When a pattern gives a stitch total, compare it with your work at the end of the row or round. If the numbers do not agree, it is easier to investigate immediately than after adding several more rows.\n\nCheck notes about whether turning chains count as stitches, where the first stitch goes, and how rounds are joined. These details can affect how you interpret the edges of the work. Marking your place in the instructions also helps you return to the correct step after a break.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-06.svg",
+          "alt": "A checkpoint after every row. Expected: 6 Count your work Compare: 6 = 6 Read the stated total Count completed stitches Continue when they agree",
+          "caption": "A checkpoint after every row — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Worked example: read a two-row practice pattern",
-        "text": "Use this original practice example in US terms: “Ch 7. Row 1: sc in the second ch from the hook and each ch across (6 sts). Row 2: ch 1, turn, sc in each st across (6 sts). The turning ch does not count as a stitch.”\n\nThe foundation instruction makes seven chains. Row 1 skips the chain closest to the hook and uses the other six chains, producing six single crochet stitches. The live loop on the hook is not one of the seven chains.\n\nFor Row 2, make one chain for height, turn the piece, and work into the six stitches of Row 1. The note explains why you neither count the turning chain nor work an extra stitch into it. At the end, count six top Vs. This exercise has no required finished dimensions."
+        "text": "Use this original practice example in US terms: “Ch 7. Row 1: sc in the second ch from the hook and each ch across (6 sts). Row 2: ch 1, turn, sc in each st across (6 sts). The turning ch does not count as a stitch.”\n\nThe foundation instruction makes seven chains. Row 1 skips the chain closest to the hook and uses the other six chains, producing six single crochet stitches. The live loop on the hook is not one of the seven chains.\n\nFor Row 2, make one chain for height, turn the piece, and work into the six stitches of Row 1. The note explains why you neither count the turning chain nor work an extra stitch into it. At the end, count six top Vs. This exercise has no required finished dimensions.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-07.svg",
+          "alt": "Your six-stitch practice sample. Original schematic explaining the counts stated in the lesson.",
+          "caption": "Your six-stitch practice sample — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Worked example: repeats and increases",
-        "text": "Consider a row starting with six stitches and the instruction “Repeat [sc in next st, 2 sc in next st] three times (9 sts).” Each repeat uses two existing stitches: one receives a single crochet and the next receives two single crochets. Those two input stitches become three output stitches.\n\nThree repeats therefore consume all six starting stitches and produce nine stitches. This is an increase row. Checking both the stitches used and the stitches produced helps you see whether you have interpreted the repeat correctly.\n\nA different instruction, such as “(sc, ch 1, sc) in next st,” groups several actions in one location. Follow the full wording around the punctuation. Brackets, parentheses, and asterisks are reading aids, but their exact job depends on the designer’s explanation."
+        "text": "Consider a row starting with six stitches and the instruction “Repeat [sc in next st, 2 sc in next st] three times (9 sts).” Each repeat uses two existing stitches: one receives a single crochet and the next receives two single crochets. Those two input stitches become three output stitches.\n\nThree repeats therefore consume all six starting stitches and produce nine stitches. This is an increase row. Checking both the stitches used and the stitches produced helps you see whether you have interpreted the repeat correctly.\n\nA different instruction, such as “(sc, ch 1, sc) in next st,” groups several actions in one location. Follow the full wording around the punctuation. Brackets, parentheses, and asterisks are reading aids, but their exact job depends on the designer’s explanation.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-08.svg",
+          "alt": "Repeat [1 sc, 2 sc] three times. Original schematic explaining the counts stated in the lesson.",
+          "caption": "Repeat [1 sc, 2 sc] three times — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Understand gauge and finished measurements",
-        "text": "Gauge is the number of stitches and rows over a stated measurement, using the specified stitch pattern. If the instructions ask for a sample, make it before beginning an item where dimensions matter. Measure the sample as directed, including any washing or blocking instructions.\n\nFor example, imagine a pattern asking for 20 stitches across 10 cm, while your sample has 22 across the same distance. Your stitches are smaller across that measurement. A piece made with the same stitch count would be narrower. You would need to adjust and measure another sample before trusting the planned width.\n\nA hook change may help, but changing the fibre or stitch pattern also changes the fabric. Recheck both width and height rather than assuming one adjustment solves everything. A learning swatch can be useful without matching gauge; a fitted item needs more precise checking."
+        "text": "Gauge is the number of stitches and rows over a stated measurement, using the specified stitch pattern. If the instructions ask for a sample, make it before beginning an item where dimensions matter. Measure the sample as directed, including any washing or blocking instructions.\n\nFor example, imagine a pattern asking for 20 stitches across 10 cm, while your sample has 22 across the same distance. Your stitches are smaller across that measurement. A piece made with the same stitch count would be narrower. You would need to adjust and measure another sample before trusting the planned width.\n\nA hook change may help, but changing the fibre or stitch pattern also changes the fabric. Recheck both width and height rather than assuming one adjustment solves everything. A learning swatch can be useful without matching gauge; a fitted item needs more precise checking.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-09.svg",
+          "alt": "Read the measuring span. Target: 20 sts Sample: 22 sts Measure again Across 10 cm Across the same 10 cm Smaller stitches here",
+          "caption": "Read the measuring span — original learning illustration. Click to view at full size."
+        }
+      },
+      {
+        "heading": "Turning chains: compare two different counting rules",
+        "text": "A turning chain raises the working loop so the next row can begin. Whether it counts as a stitch depends on the instructions. Our six-stitch single crochet exercise uses ch 1 for height only. You work into the first completed stitch and leave the turning chain out of the total.\n\nHere is a separate US double crochet counting example: ch 10, then dc in the fourth chain from the hook and each remaining chain. You make seven actual dc. If this example explicitly counts the three skipped chains as the first stitch, the row total is eight. Seven worked stitches plus one counted chain group gives eight; it does not mean eight worked dc.\n\nOn the next row, if ch 3 counts as the first dc, the starting chain group takes one position in the total. The remaining stitches and the last insertion point must follow that pattern’s notes. Write its chain rule beside the first row so you do not switch conventions halfway through. Count the grouped chains once, not as three separate stitches.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-10.svg",
+          "alt": "Counting a chain group. Original schematic explaining the counts stated in the lesson.",
+          "caption": "Counting a chain group — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Rows, joined rounds, and continuous rounds",
-        "text": "Rows usually involve working back and forth, with a turn between passes. A project worked in rounds goes around a shape instead. Read whether the rounds are joined, turned, or worked continuously, because these constructions do not share one universal starting method.\n\nJoined rounds may finish with a slip stitch and begin with chains as described in the pattern. Continuous rounds continue without that join; a marker can identify the first stitch of each round. In either case, the pattern should tell you how the starting stitches and joins affect the count.\n\nDo not add a join just because you have used one in another project. Follow the construction notes for the current piece, and check the count before moving to the next round. If the instructions are unclear, pause before the first join rather than guessing."
+        "text": "Rows usually involve working back and forth, with a turn between passes. A project worked in rounds goes around a shape instead. Read whether the rounds are joined, turned, or worked continuously, because these constructions do not share one universal starting method.\n\nJoined rounds may finish with a slip stitch and begin with chains as described in the pattern. Continuous rounds continue without that join; a marker can identify the first stitch of each round. In either case, the pattern should tell you how the starting stitches and joins affect the count.\n\nDo not add a join just because you have used one in another project. Follow the construction notes for the current piece, and check the count before moving to the next round. If the instructions are unclear, pause before the first join rather than guessing.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-11.svg",
+          "alt": "Three constructions, different starts. Rows Joined rounds Continuous rounds Work back and forth Follow the join instructions Mark the round start",
+          "caption": "Three constructions, different starts — original learning illustration. Click to view at full size."
+        }
+      },
+      {
+        "heading": "Stitches, chain spaces, and front or back loops",
+        "text": "Find the location before making the stitch. An instruction to work “in the next stitch” and an instruction to work “in the next chain space” identify different targets. A space is an opening in the fabric; it is not the same as the top loops of an individual chain.\n\nSuppose your own practice line says “(sc, ch 2, sc) in the next chain space.” You work a single crochet into the opening, make two chains without inserting into the fabric, then make another single crochet into the same opening. The group has two worked sc and a two-chain arch. Do not move to a new location until the group is finished.\n\nFor a completed stitch, the top V has two strands. Unless the instructions specify a different entry, plain stitches are commonly worked under both. “Front loop only” uses the strand closest to you in your current working position; “back loop only” uses the farther one. Identify them before inserting rather than guessing from the front of the finished item.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-12.svg",
+          "alt": "Find the insertion target. Top of a stitch Chain space One top loop Two strands form a V Work into the opening Front or back as stated",
+          "caption": "Find the insertion target — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Use charts as a second way to understand the work",
-        "text": "A crochet chart represents stitches with symbols. Read its legend first, then look for the starting point, row or round numbers, and any arrows showing the direction of work. A chart can make the placement of groups or increases easier to notice than a dense written line.\n\nIf a pattern includes both a chart and written directions, compare one short section rather than trying to translate the whole page immediately. Find a repeat in the written text, locate the same group on the chart, and check where it is placed.\n\nDo not assume every chart begins in the same corner or uses the same symbols. The designer’s legend and orientation notes are part of the instructions. If the two versions appear to disagree, check for corrections or ask the designer which instruction to follow."
+        "text": "A crochet chart represents stitches with symbols. Read its legend first, then look for the starting point, row or round numbers, and any arrows showing the direction of work. A chart can make the placement of groups or increases easier to notice than a dense written line.\n\nIf a pattern includes both a chart and written directions, compare one short section rather than trying to translate the whole page immediately. Find a repeat in the written text, locate the same group on the chart, and check where it is placed.\n\nDo not assume every chart begins in the same corner or uses the same symbols. The designer’s legend and orientation notes are part of the instructions. If the two versions appear to disagree, check for corrections or ask the designer which instruction to follow.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-13.svg",
+          "alt": "Read the chart with its key. Find the start Read the legend Match one repeat Check the direction Symbols mean stitches Compare with the text",
+          "caption": "Read the chart with its key — original learning illustration. Click to view at full size."
+        }
+      },
+      {
+        "heading": "Garment directions: identify the wearer and the fabric side",
+        "text": "For a garment, left and right refer to the person wearing it. Lay out the pieces as they will be worn before labelling shoulders, sleeves, or fronts. A piece facing you on the table can reverse what looks like left or right, so a small labelled sketch is useful.\n\n“Right side” and “wrong side” describe the intended outer and inner faces of the fabric. They do not identify the right or left part of the body. Keep those two kinds of label separate. Mark the intended outer face when the pattern asks you to, especially before joining similar pieces.\n\nIf an instruction says to shape two areas at the same time, track both sequences by row number. For example, neckline and armhole changes can occur on different schedules within the same rows. Write a row-by-row note before working that section. If reversing shaping for a mirrored piece is unclear, seek a detailed explanation rather than treating “left” as a change of stitch name.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-14.svg",
+          "alt": "Two different kinds of label. Wearer left / right Fabric RS / WS Row schedule Body-part orientation Outer / inner face Track concurrent shaping",
+          "caption": "Two different kinds of label — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "A practical routine for finding an error",
-        "text": "Start with the last row whose count matched the pattern. Compare the next row’s expected total with your actual count. Inspect the first and last stitches, then check repeats in smaller groups. A marker between repeats can make a long row easier to audit.\n\nIf your count is correct but the shape looks wrong, check stitch placement. Working into a chain space instead of a stitch, or treating a turning chain differently, can change the fabric without immediately changing the total. Count is a useful checkpoint, not the only one."
+        "text": "Start with the last row whose count matched the pattern. Compare the next row’s expected total with your actual count. Inspect the first and last stitches, then check repeats in smaller groups. A marker between repeats can make a long row easier to audit.\n\nIf your count is correct but the shape looks wrong, check stitch placement. Working into a chain space instead of a stitch, or treating a turning chain differently, can change the fabric without immediately changing the total. Count is a useful checkpoint, not the only one.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-15.svg",
+          "alt": "Work backward to the first mismatch. Check the edges Split the repeats Inspect placement First and last stitches Count smaller groups Stitch or chain space?",
+          "caption": "Work backward to the first mismatch — original learning illustration. Click to view at full size."
+        }
       },
       {
         "heading": "Ask a precise question when you get stuck",
-        "text": "If an instruction still does not make sense, identify the exact row and wording that caused the difficulty. Record your stitch count and, if possible, take a clear photo of the area you are working on.\n\nA question such as “row four asks for twelve stitches, but I count eleven” gives a designer or teacher something concrete to investigate. Learning to read patterns takes practice. Your goal is not to understand every abbreviation at once, but to understand the next instruction before working it."
+        "text": "If an instruction still does not make sense, identify the exact row and wording that caused the difficulty. Record your stitch count and, if possible, take a clear photo of the area you are working on.\n\nA question such as “row four asks for twelve stitches, but I count eleven” gives a designer or teacher something concrete to investigate. Learning to read patterns takes practice. Your goal is not to understand every abbreviation at once, but to understand the next instruction before working it.",
+        "image": {
+          "src": "/images/guides/reading-patterns/step-16.svg",
+          "alt": "A question someone can investigate. Row number Exact instruction Your stitch count Where the issue starts Copy the relevant line Add a clear work photo",
+          "caption": "A question someone can investigate — original learning illustration. Click to view at full size."
+        }
       }
     ],
     "faqs": [
