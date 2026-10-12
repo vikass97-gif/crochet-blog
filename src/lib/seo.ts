@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { guideImages } from "./guide-images";
 import { getSiteUrl, siteConfig } from "./site-config";
 
 export function pageMetadata(title: string, description: string, path: string, article = false): Metadata {
@@ -16,7 +17,8 @@ export function pageMetadata(title: string, description: string, path: string, a
     "/blog/choosing-your-first-crochet-project": { path: "/images/blog/project.webp", alt: "Small handmade crochet coasters" },
     "/blog/how-to-crochet-for-beginners": { path: "/images/blog/beginners.webp", alt: "A crochet practice rectangle" },
   };
-  const cover = covers[path] || { path: "/images/crochet.jpg", alt: "Yarn, crochet hook and a handmade swatch" };
+  const guide = path.startsWith("/blog/") ? guideImages[path.slice("/blog/".length)] : undefined;
+  const cover = (guide ? { path: guide.src, alt: guide.alt } : covers[path]) || { path: "/images/crochet.jpg", alt: "Yarn, crochet hook and a handmade swatch" };
   const images = [{ url: new URL(cover.path, base).href, alt: cover.alt }];
   return {
     title, description,

@@ -2,7 +2,7 @@
 
 ## Before publication
 
-- The default public origin is https://crochet-blog-26tq.vercel.app. Canonical URLs, the seven-page sitemap, and social image URLs use this origin even when NEXT_PUBLIC_SITE_URL is unset. Set NEXT_PUBLIC_SITE_URL before building if you move to a custom domain.
+- The default public origin is https://crochet-blog-26tq.vercel.app. Canonical URLs, the ten-page sitemap, and social image URLs use this origin even when NEXT_PUBLIC_SITE_URL is unset. Set NEXT_PUBLIC_SITE_URL before building if you move to a custom domain.
 - Submit /sitemap.xml in Google Search Console after publication. Verify the live canonical tags, robots.txt, indexability, and structured data.
 - Check mobile layouts in a browser and measure Core Web Vitals on the deployed site. No production performance score has been measured yet.
 - Add verified author information and real publication/update dates when available. These are deliberately not invented in the article schema.

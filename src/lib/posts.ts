@@ -400,6 +400,246 @@ export const posts: Post[] = [
         "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
       }
     ]
+  },
+  {
+    "slug": "essential-crochet-stitches",
+    "title": "Essential Crochet Stitches: Chain, Single, Half Double and Double Crochet",
+    "category": "Stitch techniques",
+    "description": "Learn the core US crochet stitches, understand where to insert your hook, and compare the fabrics with small practice exercises.",
+    "sections": [
+      {
+        "heading": "Start with movements you can recognise",
+        "text": "Crochet becomes easier to follow when you recognise the actions inside a stitch: inserting the hook, catching the working yarn, drawing up a loop, and pulling through a stated number of loops. Rather than memorising a long sequence without context, pause at each stage and notice what is on the hook.\n\nThis guide uses US terminology. The explanations describe one stitch at a time and then suggest ways to practise. They do not replace the construction notes in a complete pattern. Keep the pattern’s instructions for foundations, turning chains, placement, and counts beside you when you use these stitches in a project."
+      },
+      {
+        "heading": "Prepare your yarn, hook and working position",
+        "text": "Use a smooth yarn whose strands and loops are easy to see. Match the hook to the yarn label as a starting point. Keep a light grip on the handle and hold the work close enough to the hook that it does not stretch while you search for an insertion point.\n\nThe working yarn is the strand leading to the ball; the loose starting end is the tail. Make sure the ball can unwind freely. Before practising a new stitch, check that you can slide the live loop along the hook shaft without forcing it. If the yarn is catching or your hands are tired, reset your position before continuing."
+      },
+      {
+        "heading": "Chain stitch: build a readable foundation",
+        "text": "Begin with a slip knot on the hook. Bring the working yarn over the hook from back to front, catch it in the groove, and draw it through the existing loop. One chain is complete and one live loop remains. Repeat to make a short chain, adjusting your guiding fingers as the chain grows.\n\nLook for the V shapes made by the completed chains. The slip knot and live loop are not part of that chain count. Keep the foundation loose enough to insert the hook again. For a first exercise, make 11 chains, count them, undo them, and repeat until you can identify each V. This is a movement exercise, not a sized pattern."
+      },
+      {
+        "heading": "Single crochet: practise a complete stitch",
+        "text": "With one live loop on the hook, insert it into the location specified by your pattern. Yarn over and draw up a loop so that two loops are on the hook. Yarn over again and draw through both. You now have one completed US single crochet and one live loop.\n\nIf you are practising with the 11-chain foundation, insert into the second chain away from the hook and work one single crochet into each remaining chain. You will have ten stitches. For this exercise, use the top strand of each foundation chain consistently. On later rows, work under both top loops unless the instructions say otherwise. Count the completed top Vs, not the loop currently on the hook."
+      },
+      {
+        "heading": "Half double crochet: watch the three loops",
+        "text": "US half double crochet begins with a yarn over before insertion. Yarn over, insert into the specified location, yarn over again, and draw up a loop. There are now three loops on the hook. Yarn over and draw through all three to finish the stitch.\n\nPractise the movement slowly on a separate prepared sample. Notice the initial yarn over: missing it changes the stitch sequence. If the hook catches halfway through the three-loop pull-through, loosen the loops and slightly rotate the hook rather than tugging harder.\n\nFor an original ten-stitch practice foundation, chain 12 and work half double crochet into the third chain from the hook and each chain after it. The two skipped chains provide height and do not count as a stitch in this exercise. Count ten completed stitches."
+      },
+      {
+        "heading": "Double crochet: two pull-through stages",
+        "text": "To make a US double crochet, yarn over and insert into the specified location. Yarn over and draw up a loop; three loops are on the hook. Yarn over and draw through two loops, leaving two. Yarn over once more and draw through the remaining two. The stitch is complete with one live loop left.\n\nThe pause between the two pull-throughs is useful when learning. If you draw through all three loops in one action, you have changed the sequence. Check the loops before the final yarn over instead of trying to infer the result only from the fabric.\n\nFor a ten-stitch practice foundation, chain 13, then double crochet into the fourth chain from the hook and each remaining chain. Here the three skipped chains do not count as a stitch. Other patterns often treat these chains differently, so carry this rule only into this exercise."
+      },
+      {
+        "heading": "Slip stitch: join or move as instructed",
+        "text": "For a slip stitch, insert into the stated location, yarn over, and draw the yarn through the work and the live loop already on the hook. This is a different movement from drawing up a loop and then completing a single crochet. Work it gently so the finished loop remains readable.\n\nPatterns may use slip stitches to join a round, move to a starting point, or form a surface detail. Its purpose depends on the instructions. Do not add one automatically at the end of a row. If a join is required, locate the exact stitch identified by the pattern and check whether the join belongs in the count. A marker can help you recognise that location before the round becomes crowded."
+      },
+      {
+        "heading": "Turning chains and stitch placement",
+        "text": "Changing stitch height changes how a new row needs to begin. The chain or other starting method gives the work enough height, while the pattern determines whether it counts as a stitch and where the first worked stitch goes. There is no one turning-chain rule you can safely apply to every pattern.\n\nFor the practice samples here, use ch 1 for single crochet, ch 2 for half double crochet, and ch 3 for double crochet before turning. These turning chains do not count as stitches in these exercises. Work into the first completed stitch and each stitch across, and do not add a stitch into the turning chain. Count ten stitches and mark the edges. Follow a different pattern’s own notes when you leave these samples."
+      },
+      {
+        "heading": "Compare three small fabrics",
+        "text": "Make separate ten-stitch samples in single crochet, half double crochet, and double crochet using the same yarn and hook. Work a few rows in each and label them with the stitch name and the turning-chain rule you used. No particular dimensions are required.\n\nLay them side by side without stretching. Notice the stitch height, the gaps, the flexibility, and how clearly you can see the top loops. A fabric’s behaviour also depends on your yarn and tension, so this comparison describes your samples rather than promising the same result with every material.\n\nKeep the samples as references. When you encounter a stitch name in a future pattern, the labelled fabric can remind you of its structure and the movement you practised."
+      },
+      {
+        "heading": "Find errors before they become several rows",
+        "text": "A changing stitch count often begins at an edge. Check whether you skipped the first stitch, missed the last, worked twice into one location, or added a stitch into a turning chain that does not count. Marking the first and last completed stitches makes these checks easier.\n\nIf a stitch looks different but the count is correct, replay its movements. Did you include the starting yarn over? Did you pull through the stated number of loops? Did you insert under both top loops where required? Undo a short section when needed, place the hook back into the remaining live loop, and repeat. Learning to identify a mistake is useful progress, even when the row needs to be remade."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are US and UK stitch names interchangeable?",
+        "answer": "No. A US single crochet is a UK double crochet; a US half double crochet is a UK half treble; a US double crochet is a UK treble. Confirm the terminology before following the movements."
+      },
+      {
+        "question": "Which stitch should I learn first?",
+        "answer": "Practise the chain, then single crochet and turning on a small rectangle. Move to another stitch once you can identify the top loops and keep the count steady."
+      },
+      {
+        "question": "Do I always insert under both loops?",
+        "answer": "For many plain rows, yes, but the pattern may specify one loop, a chain space, or another location. Follow the stated placement."
+      },
+      {
+        "question": "Why are my edges uneven?",
+        "answer": "Check stitch counts and how the row starts and ends. Uneven tension can affect appearance too, but first rule out a missed or extra edge stitch."
+      },
+      {
+        "question": "Do these samples need to match gauge?",
+        "answer": "No. They are technique comparisons without a required size. A project with target dimensions needs its own gauge instructions."
+      }
+    ],
+    "references": [
+      {
+        "title": "Craft Yarn Council: crochet abbreviations",
+        "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
+      },
+      {
+        "title": "Yarnspirations: crochet basics and demonstrations",
+        "url": "https://www.yarnspirations.com/pages/basics-of-crochet-for-beginners"
+      }
+    ]
+  },
+  {
+    "slug": "crochet-tension-and-gauge",
+    "title": "Crochet Tension and Gauge: Make More Consistent Stitches",
+    "category": "Technique & troubleshooting",
+    "description": "Understand tension, measure a gauge swatch, adjust your hook thoughtfully, and diagnose tight stitches or changing project dimensions.",
+    "sections": [
+      {
+        "heading": "Tension and gauge answer different questions",
+        "text": "Tension describes how you guide the yarn and form loops while working. Gauge measures how many stitches and rows your fabric contains across a stated distance. They are connected, but a comfortable grip alone does not guarantee that your fabric matches a pattern’s measurements.\n\nYou can practise steadier tension on a small rectangle without a target size. When a pattern requires a certain fit or finished dimension, make a sample using its gauge instructions. Treat that sample as information about your actual fabric, not as an exam you must pass on the first attempt. This guide uses US stitch names throughout."
+      },
+      {
+        "heading": "Remove changing resistance from the yarn supply",
+        "text": "Before changing your technique, watch how the yarn reaches your hand. A ball rolling against furniture, a strand trapped under the work, or a tangle can make the resistance vary from one stitch to the next. Free the strand and place the yarn where it unwinds comfortably.\n\nKeep enough space for the fabric to rest without dragging heavily from the hook. If you work in short sessions, begin each one by checking the ball and the live loop. A consistent setup makes it easier to notice a change in your hand movements because fewer other things are changing at the same time."
+      },
+      {
+        "heading": "Find a grip you can repeat comfortably",
+        "text": "Try guiding the yarn over your fingers with light resistance rather than wrapping it tightly simply to keep control. Hold the fabric close to the working stitch and move that hold as the row grows. The hook should rotate and slide without a hard squeeze.\n\nLet new loops reach the straight shaft of the hook before snugging them. Tightening around a narrower part can create a loop that is difficult to work into later. If a pull-through feels forced, pause and loosen your hold.\n\nTake breaks when your hands become tired. Trying to maintain a particular fabric by gripping harder throughout a long session can make the movements less repeatable. Comfort and clear checkpoints are more useful than forcing every stitch into the same appearance."
+      },
+      {
+        "heading": "Choose the right sample for the project",
+        "text": "Read the pattern’s gauge statement before making the sample. Note the yarn, hook, stitch pattern, measurement, and whether the sample is worked in rows or rounds. If the project gives a particular swatch method, follow it rather than substituting a convenient stitch you already know.\n\nMake enough fabric to measure the required area away from distorted edges, as the instructions allow. A sample only as wide as the measuring span can make the edge stitches disproportionately important. Leave room around the central area you intend to count.\n\nKeep a note of the yarn and hook size in millimetres. If you compare several attempts, label them before you forget which hook made which fabric. Do not assume you will remember after washing or drying the samples."
+      },
+      {
+        "heading": "Prepare the swatch as the pattern directs",
+        "text": "Measure the fabric in the condition specified by the pattern. If the directions call for washing or blocking before measurement, do that using the yarn’s care instructions and allow the sample to dry fully. Do not measure while pulling it into the desired width.\n\nLay it on a flat surface and let it rest in its natural shape. A curled edge or an uneven starting row can make measurement awkward; use the intended central area rather than stretching the entire sample.\n\nRecord how you treated the swatch. A future sample is only a useful comparison if it has been prepared consistently. When instructions do not explain the measurement condition, seek clarification, especially for a project where a small difference affects fit."
+      },
+      {
+        "heading": "Measure stitch gauge and row gauge separately",
+        "text": "Place a ruler or tape across the required span and count the stitches within it. Then measure in the other direction and count the rows. Keep the tool straight and read the measurement in the units stated by the pattern. Include partial stitches or rows where the edges of the measuring span cut through them.\n\nCheck in more than one central position if the sample is visibly uneven. If the results differ, you may need more practice or a larger sample before making a reliable decision. Averaging a strongly distorted area with a neat area can hide the problem rather than explain it.\n\nWrite down both counts. Matching the stitch gauge while ignoring the row gauge may produce a piece with the right width but an unexpected length."
+      },
+      {
+        "heading": "Worked example: what a different count means",
+        "text": "Imagine a pattern asking for 20 stitches across 10 cm, while your sample has 22 stitches across 10 cm. Your stitches are smaller across that distance. A section made from 40 stitches at your measured gauge would be about 18.2 cm wide rather than the intended 20 cm, assuming the fabric behaves consistently.\n\nIf instead you count 18 stitches across 10 cm, each stitch is wider. Forty stitches would span about 22.2 cm. These figures are arithmetic illustrations, not finished-item guarantees; shaping, preparation, and the stitch pattern also matter.\n\nUse the comparison to decide what to try next, then make and measure another sample. Do not rely on a calculation alone to skip the new swatch."
+      },
+      {
+        "heading": "Adjust one variable and recheck the fabric",
+        "text": "When you have more stitches than required over the measuring span, trying a larger hook may help make larger stitches. When you have fewer, trying a smaller hook may help. This is a starting experiment, not a promise that one hook change will solve every dimension.\n\nKeep the yarn and stitch pattern the same for that comparison. Measure the new sample in the same condition and check both stitch and row counts. Also look at the fabric: is it still suitable for the intended item, or has it become too open or too stiff for that purpose?\n\nIf width matches but height does not, examine how you draw up loops and complete the stitch. Ask for pattern-specific guidance before changing row counts in a shaped or fitted project."
+      },
+      {
+        "heading": "Diagnose a tight foundation or changing width",
+        "text": "A foundation chain that is tighter than the rows can draw the bottom edge inward. Practise making chains that slide onto the hook shaft rather than pulling each one tight. Some patterns suggest a different hook for the foundation; use that approach only with an understanding of how it affects the sample.\n\nIf the piece gets narrower or wider as you add rows, first check the count. Lost or extra stitches can look like a tension problem. Count top Vs, inspect the edges, and confirm the turning-chain rule before adjusting your grip or hook.\n\nIf the count remains correct, compare the early and late rows. Notice whether fatigue, a restricted yarn ball, or a change in posture coincides with the difference. That observation gives you something specific to change."
+      },
+      {
+        "heading": "Build a small record of successful combinations",
+        "text": "Keep a sample label with yarn details, hook size, stitch pattern, measurements, and preparation notes. For a project, record any approved changes you made and the pattern version you used. This creates a useful reference when you return to similar materials.\n\nEven if a combination worked before, recheck it for a new pattern. Your movements can change with practice, and a different construction may produce a different result. A familiar hook size is a convenient starting point, not proof of the right gauge.\n\nFor everyday practice, focus on readable loops and a steady count. For items with required dimensions, use the pattern’s checkpoints early enough to correct the work without undoing a large finished piece."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a swatch for every project?",
+        "answer": "Follow the pattern’s requirements. Gauge matters most when dimensions or fit matter. A learning exercise with no target size can focus on technique instead."
+      },
+      {
+        "question": "Should I pull tighter to match gauge?",
+        "answer": "Avoid forcing an uncomfortable grip. Try a suitable hook adjustment and make another sample, while checking that the resulting fabric still suits the project."
+      },
+      {
+        "question": "Why does my gauge change after washing?",
+        "answer": "The yarn and fabric can behave differently after the prescribed care process. Measure the sample in the condition requested by the pattern and use the same process for comparisons."
+      },
+      {
+        "question": "Can I change the stitch count instead of the hook?",
+        "answer": "That may alter repeats, shaping, and assembly. Only make that change when you understand the construction or the designer gives instructions for it."
+      },
+      {
+        "question": "What if stitch gauge matches but row gauge does not?",
+        "answer": "Recheck your measurements and stitch movements. For a fitted or shaped piece, seek pattern-specific advice rather than assuming extra or fewer rows will be harmless."
+      }
+    ],
+    "references": [
+      {
+        "title": "Craft Yarn Council: crochet gauge guidance",
+        "url": "https://www.craftyarncouncil.com/files/DiscoverPDFs/020_CGauge3.pdf"
+      },
+      {
+        "title": "Craft Yarn Council: reading instructions and basics",
+        "url": "https://craftyarncouncil.com/read_instructions.html"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-finish-crochet-projects",
+    "title": "How to Finish Crochet Projects: Ends, Edges, Seams and Care",
+    "category": "Finishing techniques",
+    "description": "Learn to fasten off, weave in ends, prepare seams, check borders, and plan care so your crochet project is ready to use.",
+    "sections": [
+      {
+        "heading": "Read the finishing plan before the first stitch",
+        "text": "Finishing is easier when it is part of the project plan from the beginning. Read whether the piece needs joining, edging, shaping, washing, blocking, or separate parts attached after the main crochet is complete. Gather the required tools before starting.\n\nA plain swatch may need only secured ends. A bag, garment, motif collection, or decorative flower can require several additional stages. None of these share one universal finishing method. Use this guide to understand the decisions, then follow the specific construction and care instructions for your pattern and yarn. The stitch terminology here is US."
+      },
+      {
+        "heading": "Check the work before securing the final loop",
+        "text": "Count the last row or round and compare it with the expected total. Look at the shape, inspect the edges, and confirm that any separate pieces are the required size. Correcting a mistake is usually simpler before the work is assembled.\n\nLay the fabric flat and check it in good light. If an edge has changed width, inspect the row starts and ends rather than assuming finishing will hide it. If the pieces will be joined, compare the edges that need to meet.\n\nKeep the pattern available through the last step. Finishing directions may tell you to leave a long tail for sewing, continue directly into a border, or keep the live loop for the next stage. Do not cut first and read those notes afterward."
+      },
+      {
+        "heading": "Fasten off when the pattern calls for it",
+        "text": "When you are ready to end a section, cut the working yarn and leave enough tail for the required finishing task. For a small practice swatch, around 15 cm (6 inches) is a useful starting length for weaving, while sewing a long seam may require a different amount.\n\nDraw the cut end completely through the live loop on the hook and gently snug it down. The aim is to secure the stitch without pulling the corner into a pucker. Keep the tail until it has been woven or used as directed.\n\nSome patterns use a different finishing join, particularly where a round needs a tidy visual ending. Follow that method if it is specified. A standard fasten-off is a useful skill, but it is not a reason to replace a designer’s explained join."
+      },
+      {
+        "heading": "Choose where a yarn end can be hidden",
+        "text": "Thread the tail into a yarn needle suited to the strand and fabric. Look for a path through the structure of neighbouring stitches where the strand can sit securely without showing on the front. Dense and open fabrics may need different paths.\n\nPass through several stitches, change direction, and continue through nearby fabric without dragging it out of shape. Avoid relying on one short straight pass as your only finishing action. Before trimming, let the piece relax and gently check whether the end remains secure.\n\nMatch the route to the colour area when possible. A dark tail worked through a light, open section may show even when it is technically secured. Test a discreet path on the sample if you are unsure."
+      },
+      {
+        "heading": "Treat yarn joins and colour-change tails individually",
+        "text": "Every place you started or changed yarn leaves a finishing decision. Locate those tails before you assemble the piece, because some become harder to reach after a seam or border is added. Keep them long enough to work with.\n\nDo not assume a tail is finished merely because it was crocheted over for a few stitches. Check whether the fibre, stitch structure, and intended use make that secure enough, and follow any additional weaving instructions.\n\nFor colour changes, keep the tail within an appropriate colour area where possible. Work slowly around open spaces so the end does not create an unintended line across the fabric. Count the ends you expected from the project stages, then inspect the work for any you missed."
+      },
+      {
+        "heading": "Prepare pieces before sewing a seam",
+        "text": "Check orientation first: which side faces out, which edges meet, and whether there are marked attachment points. Lay the pieces together and use removable markers to hold the planned alignment. This lets you inspect the arrangement before sewing.\n\nIf the pattern requires pieces to be prepared or blocked before joining, do that first and let them dry. Do not try to force mismatched dimensions into alignment with tight sewing. Recheck the measurements and construction when the pieces do not fit together as expected.\n\nKeep a record of any labels you add. Two similar pieces can still have different top edges, shaping, or directions of work. A short note such as “left panel, top marked” can prevent assembly confusion after a break."
+      },
+      {
+        "heading": "Sew the seam the pattern actually needs",
+        "text": "A seam can be decorative, discreet, firm, or flexible depending on the project. Use the method and yarn recommended by the pattern. If no method is given, test an appropriate join on two small samples before applying it to the finished pieces.\n\nFor a simple practice whipstitch, bring the yarn needle through corresponding edge points on the two samples repeatedly, keeping spacing and tension consistent. This demonstrates an over-the-edge join; it is not a universal replacement for mattress stitch or other construction methods.\n\nCheck the seam in small sections. Open the samples and notice whether the fabric puckers, gaps, or loses flexibility. Adjust before continuing. At the end, secure the sewing tail just as thoughtfully as the original crochet tails."
+      },
+      {
+        "heading": "Check a border as you work it",
+        "text": "Borders often involve working along a mix of stitch tops, row ends, and corners. The pattern should explain where to place stitches and how to treat the corners. Work slowly through the first side and check whether the fabric lies as intended.\n\nToo many border stitches can make an edge ripple; too few can pull it inward. These are clues to investigate, not a complete diagnosis, because stitch choice and tension affect the edge too. Confirm the placements and counts before changing hook size or improvising extra stitches.\n\nUse markers at important points if they help. When a border repeats around several sides, check each side before the full round is complete. A small correction is easier to make than repairing an entire decorative edge."
+      },
+      {
+        "heading": "Plan washing and blocking for the actual fibre",
+        "text": "Read the yarn label and the pattern’s preparation instructions. Keep the fibre content and care limits in view before choosing a washing or blocking method. Treat mixed materials and attached parts with equal attention; they may not all tolerate the same process.\n\nIf wet preparation is appropriate, follow the instructions and support the fabric so its shape is not distorted while wet. Lay it out and shape it gently as directed, then let it dry fully before checking dimensions or storing it. Test unfamiliar preparation on a swatch first.\n\nDo not assume direct heat or steam is suitable for every yarn. A treatment can change the fabric in a way you cannot reverse. Blocking also cannot reliably repair a fundamentally wrong stitch count or construction."
+      },
+      {
+        "heading": "Do a final inspection and save care notes",
+        "text": "Check the piece from both sides. Inspect corners, seams, attachment points, and every yarn tail. Look for stitches pulled out of shape during finishing. Compare dimensions with the pattern where required, and confirm that the piece behaves as intended.\n\nFor a gift, include the yarn’s care instructions and any relevant notes about attached parts. For your own use, keep the label and a short record with the project. Do not rely on remembering the fibre or wash setting several months later.\n\nTake a photo and note what you would change next time: a longer sewing tail, earlier markers, or a different finishing sequence. These details turn a completed project into useful experience for the next one."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Should I tie a knot and cut the ends short?",
+        "answer": "A knot alone is not a universal substitute for weaving. Follow the pattern’s method and leave enough tail to secure it in the fabric before trimming."
+      },
+      {
+        "question": "Can I use the starting tail to sew pieces together?",
+        "answer": "Yes, if the pattern allows it and the tail is long enough for the seam and final securing. Plan that length before you start."
+      },
+      {
+        "question": "Do all projects need blocking?",
+        "answer": "No. Follow the pattern and fibre requirements. Some items benefit from preparation and shaping; others need only secure ends and appropriate care."
+      },
+      {
+        "question": "Why does my seam pucker?",
+        "answer": "Check alignment, spacing, and sewing tension. A seam pulled too tight can distort matching pieces; mismatched dimensions require a construction check rather than tighter sewing."
+      },
+      {
+        "question": "How do I know the ends are secure?",
+        "answer": "Inspect the path, let the fabric relax, and gently check that the tail does not slip out. The right method depends on fibre, fabric structure, and use; test it on a sample when uncertain."
+      }
+    ],
+    "references": [
+      {
+        "title": "Craft Yarn Council: yarn standards and guidelines",
+        "url": "https://www.craftyarncouncil.com/standards/"
+      },
+      {
+        "title": "Yarnspirations: beginner crochet techniques",
+        "url": "https://www.yarnspirations.com/pages/basics-of-crochet-for-beginners"
+      }
+    ]
   }
 ];
 
