@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Loop & Stitch",
   description:
-    "Learn crochet with clear beginner guides, practical yarn advice, and inspiration for your first handmade projects.",
+    "Explore crochet inspiration, free beginner guides, and our upcoming PDF pattern collection, starting with flowers and growing into more handmade projects.",
   language: "en",
   url: "https://crochet-blog-26tq.vercel.app",
 };

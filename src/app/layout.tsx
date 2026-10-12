@@ -1,22 +1,33 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
+import { SiteNavigation } from "@/components/site-navigation";
 import { getSiteUrl, siteConfig } from "@/lib/site-config";
 import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: getSiteUrl(),
-  title: { default: "Learn Crochet, One Stitch at a Time | Loop & Stitch", template: "%s | Loop & Stitch" },
+  title: { default: "Crochet Patterns & Free Beginner Guides | Loop & Stitch", template: "%s | Loop & Stitch" },
   description: siteConfig.description,
+  applicationName: siteConfig.name,
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="en"><body>
     <a className="skip-link" href="#main-content">Skip to content</a>
-    <header className="site-header"><div className="header-inner container">
+    <header id="top" className="site-header"><div className="header-inner container">
       <Link className="brand" href="/" aria-label="Loop and Stitch home">loop<span>&</span>stitch<small>THE CROCHET JOURNAL</small></Link>
-      <nav aria-label="Main navigation"><Link href="/blog">The journal</Link><Link href="/#start">Learn crochet</Link><Link className="nav-cta" href="/blog/how-to-crochet-for-beginners">Start here <span aria-hidden="true">↗</span></Link></nav>
+      <Suspense fallback={<nav aria-label="Main navigation"><Link href="/shop">Pattern collection</Link><Link href="/blog">Free guides</Link><Link href="/about">Our approach</Link></nav>}><SiteNavigation /></Suspense>
     </div></header>
     {children}
-    <footer className="site-footer"><div className="container footer-grid"><div><Link className="brand" href="/">loop<span>&</span>stitch</Link><p>A slower moment. Something made by you.</p></div><nav aria-label="Footer navigation"><Link href="/blog">All guides</Link><Link href="/blog/how-to-read-a-crochet-pattern">Reading patterns</Link><Link href="/blog/choosing-your-first-crochet-project">First projects</Link></nav></div><div className="container footer-note">Made for curious hands, wherever you call home. · Guides use US crochet terms.</div></footer>
+    <footer className="site-footer">
+      <div className="container footer-columns">
+        <div className="footer-brand"><Link className="brand" href="/">loop<span>&</span>stitch</Link><p>A slower moment.<br />Something made by you.</p><a className="footer-contact" href="mailto:info@velioratv.com">info@velioratv.com</a></div>
+        <nav className="footer-column" aria-labelledby="footer-explore"><h2 id="footer-explore">Explore</h2><Link href="/shop">Pattern collection</Link><Link href="/about">Our approach</Link><Link href="/blog">The journal</Link></nav>
+        <nav className="footer-column" aria-labelledby="footer-learn"><h2 id="footer-learn">Learn crochet</h2><Link href="/blog/how-to-crochet-for-beginners">Beginner guide</Link><Link href="/blog/your-first-crochet-toolkit">Your first toolkit</Link><Link href="/blog/how-to-read-a-crochet-pattern">Reading patterns</Link><Link href="/blog/choosing-your-first-crochet-project">First projects</Link></nav>
+        <nav className="footer-column" aria-labelledby="footer-info"><h2 id="footer-info">Information</h2><Link href="/legal/legal-notice">Legal notice</Link><Link href="/legal/privacy">Privacy policy</Link><Link href="/legal/cookies">Cookies & storage</Link><Link href="/legal/terms">Terms</Link><Link href="/legal/digital-delivery-refunds">Delivery & refunds</Link></nav>
+      </div>
+      <div className="container footer-note"><p>Loop & Stitch · Guides use US crochet terms.</p><a className="back-to-top" href="#top">Back to top ↑</a></div>
+    </footer>
   </body></html>;
 }
