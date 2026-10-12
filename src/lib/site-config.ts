@@ -3,12 +3,11 @@ export const siteConfig = {
   description:
     "Learn crochet with clear beginner guides, practical yarn advice, and inspiration for your first handmade projects.",
   language: "en",
+  url: "https://crochet-blog-26tq.vercel.app",
 };
 
-export function getSiteUrl(): URL | undefined {
-  const value = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-
-  if (!value) return undefined;
+export function getSiteUrl(): URL {
+  const value = process.env.NEXT_PUBLIC_SITE_URL?.trim() || siteConfig.url;
 
   const url = new URL(value);
 

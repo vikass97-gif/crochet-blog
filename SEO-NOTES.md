@@ -2,7 +2,7 @@
 
 ## Before publication
 
-- Set NEXT_PUBLIC_SITE_URL to the real HTTPS domain in the hosting environment before building. This enables absolute canonical URLs, the five-page sitemap, and social image URLs. Without a domain, the sitemap is deliberately empty.
+- The default public origin is https://crochet-blog-26tq.vercel.app. Canonical URLs, the six-page sitemap, and social image URLs use this origin even when NEXT_PUBLIC_SITE_URL is unset. Set NEXT_PUBLIC_SITE_URL before building if you move to a custom domain.
 - Submit /sitemap.xml in Google Search Console after publication. Verify the live canonical tags, robots.txt, indexability, and structured data.
 - Check mobile layouts in a browser and measure Core Web Vitals on the deployed site. No production performance score has been measured yet.
 - Add verified author information and real publication/update dates when available. These are deliberately not invented in the article schema.
