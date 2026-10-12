@@ -16,8 +16,8 @@ export const posts: Post[] = [
     "description": "Build a practical beginner crochet kit: understand yarn labels, choose a comfortable hook, compare essential tools, and avoid unnecessary purchases.",
     "sections": [
       {
-        "heading": "Start with a project, not a shopping basket",
-        "text": "It is easy to spend your first crochet session comparing hooks, yarns, and accessories instead of making a stitch. Give yourself a smaller starting point: choose one practice project, read its materials list, and buy what that project requires.\n\nIf you are not following a pattern yet, your first goal can simply be learning to make a chain and a small swatch. You do not need an entire collection of equipment to begin. Keep your first purchases practical, and add tools when you understand what you want them to do."
+        "heading": "What you need for your first crochet session",
+        "text": "For a first practice swatch, start with smooth yarn, a hook that suits it, scissors, and a yarn needle. Two removable stitch markers will help you find the edges. You can keep everything in a bag you already own.\n\nIf you have chosen a pattern, use its materials list before shopping. It may need a different fibre, extra yarn, or a specific finishing tool. This guide explains how to make those choices without buying a whole set of accessories before you know what you will use."
       },
       {
         "heading": "Choose yarn that makes practising easier",
@@ -96,16 +96,12 @@ export const posts: Post[] = [
     "description": "Learn to read crochet patterns with worked examples of abbreviations, repeats, turning chains, stitch counts, gauge, charts, and troubleshooting.",
     "sections": [
       {
-        "heading": "Read the introduction before the first row",
-        "text": "A crochet pattern can look like a compact list of unfamiliar letters. Before trying to decode the first row, read the information around it. Look for the materials, finished measurements, required techniques, and notes explaining how the project is constructed.\n\nThis gives the instructions some context. Are you making separate pieces and joining them, or working one continuous piece? Is the project worked in rows or rounds? Knowing what you are trying to build makes the individual instructions easier to follow."
+        "heading": "Find the information around the first row",
+        "text": "A line such as “ch 7, sc in second ch from hook” can feel less like instructions and more like a code. The useful starting point is the pattern’s key: it tells you what the abbreviations mean and whether the stitch names are US or UK.\n\nThen check the materials, measurements, construction, and finishing notes. Knowing whether you are making a flat piece, working in rounds, or joining separate parts gives each row a purpose. Below, we work through a six-stitch example and a repeat that increases six stitches to nine, so you can see how the shorthand becomes a sequence of actions."
       },
       {
         "heading": "Check whether the pattern uses US or UK terms",
         "text": "US and UK crochet terminology use some of the same names for different stitches. For example, a US single crochet is called a double crochet in UK terminology. Check the system stated in your pattern before working any stitch.\n\nThis blog uses US terminology unless a page says otherwise. When you move between tutorials from different creators, check again. If the terminology is not stated, look for a glossary or ask the designer instead of guessing."
-      },
-      {
-        "heading": "Keep the abbreviation key beside your work",
-        "text": "Common US abbreviations include ch for chain, sc for single crochet, dc for double crochet, and sl st for slip stitch. The Craft Yarn Council publishes a reference list, but the pattern’s own glossary remains important for special stitches and designer-specific instructions.\n\nYou do not need to memorise the whole list immediately. Write down the abbreviations used by your project and keep them nearby. When you encounter an unfamiliar term, pause and check it before continuing.\n\nKeep the glossary visible while working rather than switching between several different reference sheets. If a designer defines a special abbreviation, copy that definition exactly into your notes. A short custom key for one project is easier to use than a long list of stitches you do not need yet."
       },
       {
         "heading": "Read the pattern in three passes",
@@ -113,7 +109,7 @@ export const posts: Post[] = [
       },
       {
         "heading": "A small abbreviation key you can use immediately",
-        "text": "For this guide, ch means chain, sc means single crochet, st means stitch, and sts means stitches. Additional US abbreviations you may meet include hdc for half double crochet, dc for double crochet, and sl st for slip stitch. These are names to recognise; learn the movements separately before using them in a project.\n\nWords such as “across,” “turn,” and “each” carry instructions too. “Sc in each st across” tells you both which stitch to make and where to repeat it. “Turn” changes the direction of work for the following row. Do not focus on the abbreviations so closely that you overlook these ordinary words.\n\nSome instructions tell you to work into a space rather than a stitch. A chain space is an opening created by chains in an earlier row or round. Find the stated location before working into it; it is not automatically the next V along the top edge."
+        "text": "For this guide, ch means chain, sc means single crochet, st means stitch, and sts means stitches. Additional US abbreviations you may meet include hdc for half double crochet, dc for double crochet, and sl st for slip stitch. These are names to recognise; learn the movements separately before using them in a project.\n\nWords such as “across,” “turn,” and “each” carry instructions too. “Sc in each st across” tells you both which stitch to make and where to repeat it. “Turn” changes the direction of work for the following row. Do not focus on the abbreviations so closely that you overlook these ordinary words.\n\nSome instructions tell you to work into a space rather than a stitch. A chain space is an opening created by chains in an earlier row or round. Find the stated location before working into it; it is not automatically the next V along the top edge.\n\nKeep this project-specific key beside your work. If the designer defines a special stitch, use that explanation rather than a glossary from a different pattern."
       },
       {
         "heading": "Translate one instruction into a small action",
@@ -122,10 +118,6 @@ export const posts: Post[] = [
       {
         "heading": "Use stitch counts as checkpoints",
         "text": "When a pattern gives a stitch total, compare it with your work at the end of the row or round. If the numbers do not agree, it is easier to investigate immediately than after adding several more rows.\n\nCheck notes about whether turning chains count as stitches, where the first stitch goes, and how rounds are joined. These details can affect how you interpret the edges of the work. Marking your place in the instructions also helps you return to the correct step after a break."
-      },
-      {
-        "heading": "Ask a precise question when you get stuck",
-        "text": "If an instruction still does not make sense, identify the exact row and wording that caused the difficulty. Record your stitch count and, if possible, take a clear photo of the area you are working on.\n\nA question such as “row four asks for twelve stitches, but I count eleven” gives a designer or teacher something concrete to investigate. Learning to read patterns takes practice. Your goal is not to understand every abbreviation at once, but to understand the next instruction before working it."
       },
       {
         "heading": "Worked example: read a two-row practice pattern",
@@ -149,7 +141,11 @@ export const posts: Post[] = [
       },
       {
         "heading": "A practical routine for finding an error",
-        "text": "Start with the last row whose count matched the pattern. Compare the next row’s expected total with your actual count. Inspect the first and last stitches, then check repeats in smaller groups. A marker between repeats can make a long row easier to audit.\n\nIf your count is correct but the shape looks wrong, check stitch placement. Working into a chain space instead of a stitch, or treating a turning chain differently, can change the fabric without immediately changing the total. Count is a useful checkpoint, not the only one.\n\nWrite the exact instruction and what you did before asking for help. Include the row number, terminology, stitch count, and a clear photo if available. This makes the question easier to answer than saying only that the pattern is confusing."
+        "text": "Start with the last row whose count matched the pattern. Compare the next row’s expected total with your actual count. Inspect the first and last stitches, then check repeats in smaller groups. A marker between repeats can make a long row easier to audit.\n\nIf your count is correct but the shape looks wrong, check stitch placement. Working into a chain space instead of a stitch, or treating a turning chain differently, can change the fabric without immediately changing the total. Count is a useful checkpoint, not the only one."
+      },
+      {
+        "heading": "Ask a precise question when you get stuck",
+        "text": "If an instruction still does not make sense, identify the exact row and wording that caused the difficulty. Record your stitch count and, if possible, take a clear photo of the area you are working on.\n\nA question such as “row four asks for twelve stitches, but I count eleven” gives a designer or teacher something concrete to investigate. Learning to read patterns takes practice. Your goal is not to understand every abbreviation at once, but to understand the next instruction before working it."
       }
     ],
     "faqs": [
@@ -196,8 +192,8 @@ export const posts: Post[] = [
     "description": "Choose your first crochet project with a practical comparison of swatches, washcloths, scarves, granny squares, and amigurumi, plus a realistic plan for finishing.",
     "sections": [
       {
-        "heading": "Choose a project you can understand",
-        "text": "The most appealing photo is not always the best starting point. Before choosing your first project, open the instructions and look at what they ask you to do. Can you identify the materials, techniques, and main stages?\n\nA project that feels manageable on paper is a useful place to begin. You can still choose a colour or style you enjoy, but let the instructions guide the decision. Starting with a clear project gives you fewer unknowns to solve at the same time."
+        "heading": "Pick a project you want to make and can follow",
+        "text": "A small washcloth, a long scarf, and a tiny toy can all carry a beginner label. They ask for different skills and very different amounts of work. Before choosing by the finished photo, read how each one is made.\n\nLook for a project that uses something you already know and introduces a manageable next step. If you can chain and make single crochet but struggle with turning, a small rectangle gives you room to practise. If rounds are what interest you, choose instructions that explain their starts, counts, and joins. This guide helps you compare those choices before buying the yarn."
       },
       {
         "heading": "Look beyond the beginner label",
@@ -216,20 +212,8 @@ export const posts: Post[] = [
         "text": "A granny square can introduce rounds, groups of stitches, corners, and joins in one small object. Its compact size does not mean every step is obvious. Pick a tutorial that explains the centre, the start of each round, the corner spaces, and how the piece is finished.\n\nAmigurumi often asks you to work around a small shape, track increases and decreases, maintain a stitch count, and assemble pieces. The finished object may be small while the instructions require several new skills. Review those skills before choosing it as a first project.\n\nIf either style is what interests you, practise the unfamiliar construction in a small sample first. You do not have to abandon an appealing idea; you can divide the learning into manageable steps. A clear tutorial and the ability to count rounds matter more than the size of the photograph."
       },
       {
-        "heading": "Consider a small piece worked in rows",
-        "text": "A practice swatch, simple coaster, or small washcloth is worth considering when you want to practise working back and forth. Choose a pattern that explains how to start, turn, count the stitches, and finish.\n\nKeep the goal modest. You do not have to turn your first attempt into a gift. It can simply be something you make to understand the process. Save it so you can compare it with later practice and recognise what has changed."
-      },
-      {
-        "heading": "Be realistic about the commitment",
-        "text": "Before beginning, look at the finished size and the amount of repetition involved. A project may use familiar stitches and still require more time than you want to commit. Choose something that fits the sessions you can realistically give it.\n\nAvoid setting a strict finishing deadline for your first attempt. Learning a technique, checking instructions, and correcting mistakes are part of the work. A smaller project gives you more opportunities to finish, reflect, and choose a next step."
-      },
-      {
         "heading": "Make a plan for finishing",
         "text": "Read the finishing instructions before starting. Does the piece need sewing, edging, or another technique after the main crochet is complete? Gather those supplies too, so the final steps do not come as a surprise.\n\nWhen you finish, make a few notes: which instructions were clear, what needed another explanation, and which technique you would like to practise again. These notes make your next project choice more informed than simply picking another attractive photo."
-      },
-      {
-        "heading": "A short checklist before you begin",
-        "text": "Check that you have the required materials, understand the terminology, know where the instructions begin, and can find explanations for unfamiliar techniques. Keep the pattern and any notes beside your work.\n\nIf several of these points are unclear, practise with a smaller exercise first or choose a more detailed tutorial. The right first project is one that helps you keep learning. It does not have to be impressive to anyone else."
       },
       {
         "heading": "Check whether the instructions support beginners",
@@ -250,6 +234,10 @@ export const posts: Post[] = [
       {
         "heading": "A worked decision: choosing between three projects",
         "text": "Imagine you can make a chain and single crochet, but turning still feels uncertain. You are considering a large scarf, a small washcloth, and a shaped toy. Start by comparing the unfamiliar steps, not the photographs.\n\nThe scarf may let you practise turning, but it asks for a longer commitment. The washcloth may offer the same practice in fewer rows, provided the pattern explains the edges and finishing. The toy may add rounds, shaping, stuffing, and assembly before you feel confident counting rows.\n\nIn that situation, a swatch followed by a well-explained washcloth is a reasonable route. If the toy is your main motivation, keep it as a later goal and practise its required techniques separately. This is a learning plan, not a rule that everyone must choose the same first object."
+      },
+      {
+        "heading": "A short checklist before you begin",
+        "text": "Check that you have the required materials, understand the terminology, know where the instructions begin, and can find explanations for unfamiliar techniques. Keep the pattern and any notes beside your work.\n\nIf several of these points are unclear, practise with a smaller exercise first or choose a more detailed tutorial. The right first project is one that helps you keep learning. It does not have to be impressive to anyone else."
       },
       {
         "heading": "Finish, review, and choose one next skill",
@@ -296,8 +284,8 @@ export const posts: Post[] = [
     "description": "Learn how to crochet from scratch: choose supplies, make a slip knot and chain, practise single crochet, and finish a simple 10-stitch swatch.",
     "sections": [
       {
-        "heading": "Before you begin: what you will learn",
-        "text": "This guide takes you from an empty hook to a small rectangle of crochet fabric. You will practise a slip knot, a foundation chain, single crochet, turning your work, and finishing the ends. The exercise is a learning swatch: its size does not need to match a particular measurement.\n\nWe use US crochet terminology throughout. US single crochet is called double crochet in UK terminology. Here, ch means chain, sc means single crochet, and st means stitch. Read the steps in order, and stop after each new movement until it feels familiar.\n\nKeep a small note beside your work and write down the row you have finished. This tutorial is designed to be revisited. You can practise the chain in one session and begin the fabric in another, without treating the whole lesson as a timed challenge."
+        "heading": "Your first goal: a ten-stitch rectangle",
+        "text": "Start with a small rectangle: ten single crochet stitches across and ten rows tall. It gives you a reason to practise the chain, find the first and last stitches, turn the fabric, and secure the ends. There is no target measurement, so you can focus on the movements.\n\nThe instructions use US terms. Here, ch means chain, sc means single crochet, and st means stitch. US single crochet is called double crochet in UK terminology. You can make the foundation in one session and return to the rows later; write down where you stop so you can pick up the exercise easily."
       },
       {
         "heading": "1. Gather a simple crochet kit",
@@ -336,10 +324,6 @@ export const posts: Post[] = [
         "text": "If your hook struggles to enter a chain or stitch, try relaxing the hand guiding the yarn. Let each new loop reach the straight shaft of the hook before tightening it. Starting chains can be particularly tight; practise a looser chain before restarting the rectangle.\n\nIf the rectangle becomes narrower, check whether you missed the last stitch or skipped the first stitch after turning. If it becomes wider, check whether you worked twice into one stitch or added a stitch into the turning chain. Use the markers and count back to the last row with 10 stitches.\n\nTo undo a mistake, remove the hook and gently pull the working yarn to unravel stitches until you reach the point you want to redo. Put the hook back into the remaining live loop without twisting it, then continue. Correcting a row is part of learning."
       },
       {
-        "heading": "What to practise next",
-        "text": "Repeat the exercise until you can find the first and last stitches, keep the count at 10, and make the yarn move comfortably. You do not need perfect edges before learning another technique, but being able to identify your stitches will make the next lesson easier.\n\nFor your next project, choose instructions that explain the materials, stitch counts, turning chains, and finishing steps. A small, flat piece lets you build on this practice. Before following a new pattern, check whether it uses US or UK terminology and read its notes about where each row begins."
-      },
-      {
         "heading": "Learn to read the fabric, not just the instructions",
         "text": "Hold the swatch so you can see its top edge. The live loop sits on the hook; the completed stitches form a line of Vs below it. Distinguish those two things before counting. Follow each V along the row and avoid counting the turning chain as a stitch in this exercise.\n\nThe two strands of a top V are the front and back loops when viewed in the current working position. In the rows after the foundation, this guide asks you to insert under both. Working under only one changes the surface of the fabric and is a separate technique to explore later.\n\nMarkers are useful because edge stitches can look different from stitches in the middle. Place them in the completed first and last stitches, and move them after each row. Do not rely only on the appearance of a straight edge to decide whether the count is correct."
       },
@@ -357,7 +341,7 @@ export const posts: Post[] = [
       },
       {
         "heading": "Your final checklist before trying a pattern",
-        "text": "You are ready to try a clear, small pattern when you can make a chain, work into the intended loops, turn without losing the live loop, and count the stitches you have completed. You should also know how to undo a short section and secure the final end.\n\nCheck that the next pattern explains its materials, terminology, construction, and finishing. Review any unfamiliar techniques before the main project. If dimensions matter, follow its gauge instructions rather than using this practice swatch as a substitute.\n\nKeep your first rectangle as a record of the process. It does not need to look like a finished shop item. Being able to explain how you made it, where the stitches go, and how to correct a missing stitch is a useful foundation for the next project."
+        "text": "Before choosing a pattern, check whether you can find the first and last stitches, count ten stitches across your sample, and undo a short section when the count is wrong. If one of those steps still feels uncertain, practise that part of the rectangle again.\n\nRead the next pattern’s materials, terminology, construction, and finishing notes. Review its unfamiliar techniques before starting the main piece. If dimensions matter, make the gauge sample it asks for; this learning rectangle has no target size.\n\nKeep the first rectangle and label the hook and yarn. When you make another, compare the edges and stitch sizes. That gives you a useful record of what changed without needing the first attempt to look perfect."
       }
     ],
     "faqs": [
@@ -408,8 +392,8 @@ export const posts: Post[] = [
     "description": "Learn the core US crochet stitches, understand where to insert your hook, and compare the fabrics with small practice exercises.",
     "sections": [
       {
-        "heading": "Start with movements you can recognise",
-        "text": "Crochet becomes easier to follow when you recognise the actions inside a stitch: inserting the hook, catching the working yarn, drawing up a loop, and pulling through a stated number of loops. Rather than memorising a long sequence without context, pause at each stage and notice what is on the hook.\n\nThis guide uses US terminology. The explanations describe one stitch at a time and then suggest ways to practise. They do not replace the construction notes in a complete pattern. Keep the pattern’s instructions for foundations, turning chains, placement, and counts beside you when you use these stitches in a project."
+        "heading": "Learn the movements behind the stitch names",
+        "text": "Chain, single crochet, half double crochet, and double crochet use a small set of repeated movements. What changes is when you yarn over and how many loops you pull through. Watching those loops is more helpful than rushing through a sequence from memory.\n\nThis guide uses US stitch names and includes separate ten-stitch practice foundations. Their turning chains do not count as stitches; that rule is stated again with the exercises. A different pattern may count them, so check its notes rather than carrying the practice rule into every project."
       },
       {
         "heading": "Prepare your yarn, hook and working position",
@@ -488,8 +472,8 @@ export const posts: Post[] = [
     "description": "Understand tension, measure a gauge swatch, adjust your hook thoughtfully, and diagnose tight stitches or changing project dimensions.",
     "sections": [
       {
-        "heading": "Tension and gauge answer different questions",
-        "text": "Tension describes how you guide the yarn and form loops while working. Gauge measures how many stitches and rows your fabric contains across a stated distance. They are connected, but a comfortable grip alone does not guarantee that your fabric matches a pattern’s measurements.\n\nYou can practise steadier tension on a small rectangle without a target size. When a pattern requires a certain fit or finished dimension, make a sample using its gauge instructions. Treat that sample as information about your actual fabric, not as an exam you must pass on the first attempt. This guide uses US stitch names throughout."
+        "heading": "Why the same pattern can produce a different size",
+        "text": "You can use the yarn and hook named in a pattern and still make a piece that is too narrow or too wide. The missing check is gauge: how many stitches and rows your fabric contains over the pattern’s measuring span.\n\nTension is the way you guide the yarn and form loops. Gauge is the measurement of the resulting fabric. This guide separates the two, shows how to compare a sample with the pattern, and gives you a routine for adjusting one thing at a time. The stitch names are US."
       },
       {
         "heading": "Remove changing resistance from the yarn supply",
@@ -568,8 +552,8 @@ export const posts: Post[] = [
     "description": "Learn to fasten off, weave in ends, prepare seams, check borders, and plan care so your crochet project is ready to use.",
     "sections": [
       {
-        "heading": "Read the finishing plan before the first stitch",
-        "text": "Finishing is easier when it is part of the project plan from the beginning. Read whether the piece needs joining, edging, shaping, washing, blocking, or separate parts attached after the main crochet is complete. Gather the required tools before starting.\n\nA plain swatch may need only secured ends. A bag, garment, motif collection, or decorative flower can require several additional stages. None of these share one universal finishing method. Use this guide to understand the decisions, then follow the specific construction and care instructions for your pattern and yarn. The stitch terminology here is US."
+        "heading": "Finish the project, not just the last row",
+        "text": "The last row is done, but there may still be tails to secure, pieces to join, and an edge to tidy. Read those finishing instructions before cutting the yarn: the pattern may ask you to keep a long tail for sewing or continue directly into a border.\n\nFor a plain swatch, finishing may be as simple as fastening off and weaving in two ends. A bag or garment takes more planning. This guide covers the checks that help you choose a suitable method, with US stitch terminology and reminders to follow the actual yarn care instructions."
       },
       {
         "heading": "Check the work before securing the final loop",
