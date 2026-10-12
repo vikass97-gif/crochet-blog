@@ -10,12 +10,14 @@ export type Pattern = {
   materials: string[];
   plannedContents: string[];
   credit: { name: string; url: string };
+  draftDownload?: { url: string; version: string };
 };
 
 // Proposed collection only. Stock photos are inspiration, not finished pattern results.
 export const patterns: Pattern[] = [
   {
     "slug": "crochet-roses",
+    "draftDownload": { "url": "/downloads/little-rose-v0.2-draft.pdf", "version": "0.2" },
     "title": "Little Crochet Roses",
     "category": "Roses",
     "level": "Confident beginner",
