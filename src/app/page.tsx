@@ -1,69 +1,24 @@
 import Image from "next/image";
+import Link from "next/link";
+import { posts } from "@/lib/posts";
+import { PostCard } from "@/components/post-card";
+import { JsonLd } from "@/components/json-ld";
+import { pageMetadata } from "@/lib/seo";
+import { getSiteUrl, siteConfig } from "@/lib/site-config";
+
+export const metadata = pageMetadata("Learn Crochet, One Stitch at a Time", siteConfig.description, "/");
 
 export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+  const url = getSiteUrl();
+  return <main id="main-content">
+    {url && <JsonLd data={{ "@context": "https://schema.org", "@type": "WebSite", name: siteConfig.name, url: url.href, inLanguage: "en", description: siteConfig.description }} />}
+    <section className="home-hero container">
+      <div className="hero-copy"><p className="eyebrow"><span className="small-line" /> A LITTLE TIME. A LITTLE YARN.</p><h1>Learn crochet.<br />Make something<br /><em>beautiful.</em></h1><p className="hero-description">A home for your first stitches and your next big idea. Clear crochet guides, thoughtful advice, and a little inspiration to make it yours.</p><div className="hero-actions"><Link className="button" href="/blog/how-to-crochet-for-beginners">Begin your crochet journey <span aria-hidden="true">↗</span></Link><Link className="text-link" href="/blog">Explore the journal <span aria-hidden="true">→</span></Link></div><div className="hero-note"><span aria-hidden="true">✳</span> No perfect stitches required. Just a place to start.</div></div>
+      <div className="hero-visual"><div className="hero-photo"><Image src="/images/crochet.jpg" alt="Red yarn, a cream crochet swatch, and a crochet hook" fill preload sizes="(max-width: 800px) 90vw, 48vw" /></div><div className="photo-caption"><span className="eyebrow">THE JOY OF MAKING</span><p>One stitch at a time.</p><span aria-hidden="true">↗</span></div><span className="photo-tag">YARN · CURIOSITY · POSSIBILITY</span></div>
+    </section>
+    <div className="values-strip"><div className="container"><span>Beginner-friendly guides</span><span aria-hidden="true">✳</span><span>Learn at your own pace</span><span aria-hidden="true">✳</span><span>Make with intention</span></div></div>
+    <section id="start" className="learning-section container"><div><p className="eyebrow">YOUR FIRST CHAPTER</p><h2>A small start.<br /><em>Endless possibilities.</em></h2><p>You don’t need a cupboard full of yarn. Start with the essentials, get comfortable with the basics, and find a project that feels like you.</p><Link className="text-link" href="/blog/how-to-crochet-for-beginners">Let’s get you started <span aria-hidden="true">→</span></Link></div><ol>{posts.slice(0, 3).map((post, index) => <li key={post.slug}><span className="step-number">0{index + 1}</span><div><h3><Link href={`/blog/${post.slug}`}>{["Meet your materials", "Understand the instructions", "Find your first project"][index]}</Link></h3><p>{["A hook, some yarn, and the tools worth keeping close.", "Make sense of patterns, stitch counts, and US / UK terms.", "Choose something small, satisfying, and manageable."][index]}</p></div><Link className="step-arrow" href={`/blog/${post.slug}`} aria-label={post.title}>↗</Link></li>)}</ol></section>
+    <section className="container home-journal"><div className="home-journal-heading"><div><p className="eyebrow">NOTES FROM THE YARN BASKET</p><h2>A little guidance.<br /><em>A lot of inspiration.</em></h2></div><Link className="text-link" href="/blog">View all guides <span aria-hidden="true">↗</span></Link></div><div className="card-grid">{posts.map((post, index) => <PostCard key={post.slug} post={post} index={index} />)}</div></section>
+    <section className="closing-section container"><span aria-hidden="true">✳</span><p className="eyebrow">LESS SCROLLING. MORE MAKING.</p><h2>Your next creative chapter<br />starts with <em>one stitch.</em></h2><Link className="button" href="/blog/choosing-your-first-crochet-project">Find your first project <span aria-hidden="true">↗</span></Link></section>
+  </main>;
 }
