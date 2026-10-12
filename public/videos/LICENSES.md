@@ -23,3 +23,16 @@ Commercial-use explanation: https://help.pexels.com/hc/en-us/articles/3600422952
 Pexels permits personal and commercial use and modification without required attribution. Filmmaker credits and source links are retained in this file. Restrictions include standalone resale or redistribution as stock, implying endorsement, and prohibited uses described in the license and terms. The source footage is incorporated into a branded, edited introduction; original downloads are not included in this repository.
 
 No music, voiceover, or third-party audio is included.
+
+## Homepage version 2 — 2026-10-12
+
+New montage: crochet-introduction-v2.mp4. Landscape 1920 × 1080, approximately 30 seconds, silent. Full-frame footage, two brief title overlays, crossfades, and a branded closing card. The previous edit is retained but no longer used on the homepage.
+
+New footage (Pexels License, https://www.pexels.com/license/):
+
+- RDNE Stock project: https://www.pexels.com/video/close-up-shot-of-a-woman-knitting-with-a-crochet-hook-10474567/
+  Source: https://videos.pexels.com/video-files/10474567/10474567-hd_1920_1080_30fps.mp4
+- Kaboompics: https://www.pexels.com/video/close-up-of-a-person-winding-a-ball-of-yarn-6653125/
+  Source: https://videos.pexels.com/video-files/6653125/6653125-uhd_4096_2160_25fps.mp4
+
+Footage visually checked: yarn winding and crocheting with a single hook. Stock subjects are illustrative; no endorsement is implied. No music or third-party audio used. Credits retained here at the owner's request. Poster extracted from the new montage; title captions match the edit.
