@@ -9,6 +9,7 @@ export function pageMetadata(title: string, description: string, path: string, a
     "/": { path: "/images/flowers/hero-pink-flower.webp", alt: "Pink crochet flower in a ceramic vase" },
     "/about": { path: "/images/collection/crochet-basket.webp", alt: "Handmade crochet basket and yarn" },
     "/shop": { path: "/images/collection/crochet-basket.webp", alt: "Crochet collection inspiration with yarn and a handmade basket" },
+    "/shop/everyday-crochet-bag": { path: "/images/bags/everyday-bag.webp", alt: "Cream crochet bag inspiration" },
     "/shop/crochet-roses": { path: "/images/flowers/roses.webp", alt: "Crochet rose and bouquet inspiration" },
     "/shop/crochet-sunflowers": { path: "/images/flowers/sunflowers.webp", alt: "Crochet sunflower inspiration" },
     "/shop/crochet-flower-bouquet": { path: "/images/flowers/bouquet.webp", alt: "Pastel crochet bouquet inspiration" },

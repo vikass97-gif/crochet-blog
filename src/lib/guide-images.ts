@@ -6,4 +6,5 @@ export const guideImages: Record<string, { src: string; alt: string; position?: 
   "essential-crochet-stitches": { src: "/images/blog/stitches.webp", alt: "Hands holding a wooden crochet hook and grey yarn fabric", position: "center 75%" },
   "crochet-tension-and-gauge": { src: "/images/blog/tension.webp", alt: "Brown crochet fabric and working yarn beside a crochet hook", position: "center 72%" },
   "how-to-finish-crochet-projects": { src: "/images/blog/toolkit.webp", alt: "Yarn needle, scissors and crochet tools ready for finishing" },
+  "choosing-your-first-crochet-bag": { src: "/images/bags/everyday-bag.webp", alt: "Cream crochet bag with brown edging on a blue checked blanket", position: "center 65%" },
 };

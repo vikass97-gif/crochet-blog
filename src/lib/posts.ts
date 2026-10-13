@@ -716,6 +716,82 @@ export const posts: Post[] = [
         "url": "https://www.yarnspirations.com/pages/basics-of-crochet-for-beginners"
       }
     ]
+  },
+  {
+    "slug": "choosing-your-first-crochet-bag",
+    "title": "Your First Crochet Bag: Yarn, Handles, Lining, and a Clear Plan",
+    "category": "Bags & accessories",
+    "description": "Plan your first crochet bag with practical guidance on yarn, construction, gauge, handles, lining, seams, and finishing before choosing a pattern.",
+    "sections": [
+      {
+        "heading": "Start with what the bag needs to carry",
+        "text": "A crochet bag is a good place to bring your skills together: an even fabric, tidy edges, strong joins, and a little planning. Before choosing a colour, think about what you want to put inside. A small pouch for a few essentials has different needs from a roomy tote.\n\nPlace those essentials together and measure the space they occupy. Remember that a bag needs an opening wide enough to reach inside, as well as room in its body. Decide whether you want short handles, a shoulder strap, or a removable strap. This guide helps you compare those choices; it is not a complete bag pattern. Use a pattern with confirmed stitch counts and construction instructions when you are ready to make the full project."
+      },
+      {
+        "heading": "Choose a construction you can understand",
+        "text": "Look at the assembly instructions before committing to a design. Two flat panels joined along their sides and bottom can be easier to understand if you already work comfortably in rows. Check whether the design includes a separate base or simply joins two rectangles: those shapes hold contents differently.\n\nA bag worked in rounds may reduce some seams, but you will need to follow increases, recognise the beginning of a round, and keep the base flat. A granny-square bag adds another task: making motifs that match in size and joining them consistently. Neither technique is automatically better. Choose the design whose instructions you can explain back to yourself, including how its handles attach."
+      },
+      {
+        "heading": "Compare yarn by fabric, not colour alone",
+        "text": "Smooth cotton yarn is a common starting point for crochet bags, but the fibre name alone does not determine the result. A loosely worked cotton fabric can still stretch or leave large openings. The yarn structure, stitch pattern, hook, and construction all matter. Cotton blends can also behave differently from one another.\n\nRead the pattern recommendations and the yarn label together. Compare fibre content, thickness, length per ball, and care instructions. A soft, draping yarn that works beautifully for a scarf may give a bag less structure than you expected. Avoid assuming that a heavier strand will solve every problem: thick yarn can make the empty bag heavy and its seams bulky."
+      },
+      {
+        "heading": "Make a sample before making the body",
+        "text": "Work a sample using the stitch pattern and method specified in your chosen instructions. If the bag is worked in rounds, follow the pattern’s advice for checking gauge in rounds rather than assuming a flat sample will match. Make the sample large enough to measure away from its edges.\n\nCheck both the stitch gauge and the feel of the fabric. Can you see large gaps when you gently move it? Does it bend comfortably, or feel stiff and difficult to work? Wash and dry the sample according to the yarn’s care instructions if the finished bag will receive that treatment. Measure it again before deciding whether to change the hook. Record the yarn and hook you actually used."
+      },
+      {
+        "heading": "Use gauge to understand finished size",
+        "text": "Gauge connects stitch counts to dimensions. As a simple calculation, if a sample measures 16 stitches across 10 cm, a panel of 40 stitches would be approximately 25 cm wide before accounting for seams, borders, or shaping. That is an arithmetic example, not a tested bag specification.\n\nA difference that seems small in a sample can be noticeable across a whole panel. Measure early, before making a second matching piece. Do not change only the starting chain to resize a pattern unless you understand its stitch multiple, shaping, and assembly. A different width can also change the base, lining, and placement of handles."
+      },
+      {
+        "heading": "Plan handles before finishing the top",
+        "text": "Handles are part of the construction, not just decoration added at the end. Compare their width, length, attachment points, and how they sit against your hand or shoulder. A narrow strap can feel uncomfortable even when the bag itself looks good. A long crochet strap may lengthen during use.\n\nFollow the pattern’s reinforcement and joining method. Mark both attachment positions before sewing and check that they are symmetrical. If you are substituting purchased handles or adding a fabric backing, confirm that the attachment method suits the bag fabric. There is no universal safe carrying weight for a handmade crochet bag; do not treat a fibre recommendation as a load rating."
+      },
+      {
+        "heading": "Decide whether a lining would help",
+        "text": "A lining can keep small items from slipping through openings and cover the inside of seams. It can also provide a place for a pocket. It does not automatically make the handles or crochet joins stronger: those parts still need their own sound construction.\n\nMeasure the completed, shaped bag before cutting lining fabric. The lining should sit inside without pulling the crochet out of shape or gathering excessively at the opening. A flat bag and a bag with a separate base need different lining shapes. Follow a dedicated sewing tutorial for seam allowances, boxed corners where needed, and attachment. Alyssia Creates provides a separate illustrated lining tutorial linked in the references below.\n\nIf you are new to sewing, keep the first lining simple. Practise the seam and attachment stitch on spare fabric, and consider compatible washing instructions for the yarn and fabric."
+      },
+      {
+        "heading": "Keep panels and seams consistent",
+        "text": "For a panel-based design, count rows as well as stitches. Two pieces may appear similar on a table but reveal different heights when you join them. Lay them together and compare their edges before assembling. Follow the pattern’s shaping or blocking instructions without forcing a mismatched piece into place.\n\nUse removable markers to align the corners and any important reference points. Join with the method specified in your pattern, keeping the seam even and checking both sides as you work. Pulling joining yarn too tightly can shorten an edge and pucker the bag. Leave appropriate ends for weaving in rather than cutting them close to the seam."
+      },
+      {
+        "heading": "Finish and inspect before regular use",
+        "text": "Complete the top edge, weave in ends securely, and check handle attachments from inside and outside. Look for a loose join, missed stitch, or an end that has worked free. Make sure an optional closure can open easily without dragging on nearby stitches.\n\nBegin by checking the bag with a few light items. Notice whether the opening distorts, the handles lengthen, or the seams pull apart. This practical check can reveal a problem, but it does not establish a certified carrying capacity. Recheck attachment points during use and repair wear before continuing to carry the bag. Keep the yarn label so you can follow its care instructions."
+      },
+      {
+        "heading": "Write a short project plan",
+        "text": "Before buying supplies, note the pattern name, terminology, recommended yarn, required length, hook, gauge, finished size, and any separate handle or lining supplies. Read through the assembly stage as well as the crochet instructions. If a required detail is missing, resolve it before purchasing yarn.\n\nOur Everyday Crochet Bag listing is a collection concept while its pattern is being developed. Its inspiration photo should not be used to infer stitch counts, dimensions, or yarn quantities. You can save the concept in the shop and use this guide to decide what matters in your own first bag: manageable construction, a fabric you like, comfortable handles, and finishing you can complete carefully."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is cotton yarn always best for a crochet bag?",
+        "answer": "Cotton is a common option, but the pattern, yarn structure, stitch pattern, and fabric density matter too. Compare a sample and follow the pattern’s material recommendations."
+      },
+      {
+        "question": "Does every crochet bag need a lining?",
+        "answer": "No. A lining can be useful for keeping small items inside an open fabric or adding a pocket. Choose it according to the construction and intended use."
+      },
+      {
+        "question": "How much yarn should I buy?",
+        "answer": "Use the required metres or yards in a complete pattern, together with its gauge and yarn specifications. Bag size alone does not give a reliable quantity."
+      },
+      {
+        "question": "Can I make a bag without sewing?",
+        "answer": "Some designs use crochet joins and integrated handles. Read all assembly instructions first; a fabric lining usually introduces sewing even if the crochet body does not."
+      },
+      {
+        "question": "Is the Everyday Crochet Bag PDF available?",
+        "answer": "The bag is currently a collection concept. Its final measurements, instructions, and PDF are still in preparation."
+      }
+    ],
+    "references": [
+      {
+        "title": "Alyssia Creates — How to Sew a Fabric Lining for a Crochet Bag",
+        "url": "https://alyssiacreates.com/how-to-sew-a-fabric-lining-for-a-crochet-bag/"
+      }
+    ]
   }
 ];
 

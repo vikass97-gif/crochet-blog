@@ -17,7 +17,10 @@ export type Pattern = {
 export const patterns: Pattern[] = [
   {
     "slug": "crochet-roses",
-    "draftDownload": { "url": "/downloads/little-rose-v0.2-draft.pdf", "version": "0.2" },
+    "draftDownload": {
+      "url": "/downloads/little-rose-v0.2-draft.pdf",
+      "version": "0.2"
+    },
     "title": "Little Crochet Roses",
     "category": "Roses",
     "level": "Confident beginner",
@@ -105,6 +108,37 @@ export const patterns: Pattern[] = [
     "credit": {
       "name": "Natanael Alves Bezerra",
       "url": "https://www.pexels.com/photo/a-bride-holding-a-bouquet-of-crocheted-flowers-15469188/"
+    }
+  },
+  {
+    "slug": "everyday-crochet-bag",
+    "title": "The Everyday Crochet Bag",
+    "category": "Bags",
+    "level": "Confident beginner",
+    "image": "/images/bags/everyday-bag.webp",
+    "alt": "Cream crochet bag with brown edging on a blue checked blanket",
+    "description": "An everyday bag concept for a collection that goes beyond flowers. Explore the texture and finishing inspiration while we develop the construction, handles, and final PDF instructions. The photograph is not a sample made from our pattern.",
+    "skills": [
+      "Making an even crochet fabric",
+      "Joining panels neatly",
+      "Attaching and reinforcing handles",
+      "Planning an optional fabric lining"
+    ],
+    "materials": [
+      "Smooth cotton or cotton-blend yarn, final specification to be confirmed",
+      "A hook suited to the chosen yarn and gauge",
+      "Stitch markers, measuring tape, scissors, and yarn needle",
+      "Optional lining fabric and sewing supplies"
+    ],
+    "plannedContents": [
+      "Construction and assembly instructions",
+      "Gauge and finished measurements",
+      "Handle attachment checkpoints",
+      "Optional lining guidance and care notes"
+    ],
+    "credit": {
+      "name": "Nur Tok",
+      "url": "https://www.pexels.com/photo/handmade-crochet-bag-on-checkered-blanket-outdoors-30224894/"
     }
   }
 ];
