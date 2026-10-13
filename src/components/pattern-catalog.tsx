@@ -35,6 +35,5 @@ export function PatternCatalog() {
       <div className="card-body"><p className="eyebrow">{pattern.category} · {pattern.level}</p><h3><Link href={`/shop/${pattern.slug}`}>{pattern.title}</Link></h3><p className="muted">{pattern.description}</p><div className="card-bottom"><span>{pattern.draftDownload ? "Free draft available" : "PDF in preparation"}</span><Link className="article-link" href={`/shop/${pattern.slug}`}>Explore concept ↗</Link></div></div>
     </article>)}</div>
     {filtered.length === 0 && <div className="shop-empty"><h3>{savedOnly ? "No saved patterns match yet." : "No patterns match your search."}</h3><p>Try another keyword or reset your filters to explore the collection.</p><button className="button" onClick={reset} type="button">Reset filters</button></div>}
-    <p className="shop-footnote">Collection previews use licensed stock inspiration photos, not images of our finished patterns. Final designs, skill levels, materials, PDF contents, and prices will be confirmed before release. Saved items stay on this browser.</p>
   </>;
 }
