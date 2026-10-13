@@ -333,3 +333,14 @@ summary { min-height:28px; }
 .home-shop-grid .card-bottom { margin-top: auto; padding-top: 18px; }
 @media (max-width:1100px) { .home-shop-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width:600px) { .home-shop-grid { grid-template-columns: 1fr; } .home-shop { padding-bottom: 40px; } }
+
+.home-shop { border-top: 1px solid var(--line); padding-top: 56px; }
+.home-shop-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding-bottom: 26px; }
+.home-shop-count, .home-shop-level { font-size: 12px; color: var(--muted); }
+.home-shop-grid .journal-card { border-radius: 16px; overflow: hidden; }
+.home-shop-grid .card-body { gap: 10px; }
+.home-shop-grid h3 { line-height: 1.2; margin-bottom: 0; }
+.home-shop-level { margin: 0; }
+.home-shop-bottom { margin-top: 32px; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 24px 28px; border-radius: 16px; background: var(--sage); }
+.home-shop-bottom p { margin: 0; }
+@media (max-width:600px) { .home-shop-bottom { flex-direction: column; align-items: flex-start; padding: 24px; } .home-shop { padding-top: 32px; } }

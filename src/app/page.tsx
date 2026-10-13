@@ -2,7 +2,7 @@ import Image from "next/image";
 import { HomeVideo } from "@/components/home-video";
 import Link from "next/link";
 import { posts } from "@/lib/posts";
-import { patterns } from "@/lib/patterns";
+import { HomeShop } from "@/components/home-shop";
 import { PostCard } from "@/components/post-card";
 import { JsonLd } from "@/components/json-ld";
 import { pageMetadata } from "@/lib/seo";
@@ -23,14 +23,7 @@ export default function Home() {
       <div><p className="eyebrow">THE UPCOMING CROCHET COLLECTION</p><h2 id="pattern-collection-heading">A little yarn.<br /><em>So much to make.</em></h2><p>Flowers are just the beginning. We’re building a collection of crochet PDF patterns, with room for accessories, home décor, and more handmade ideas.</p><p>Explore the first previews and save your favourites while we prepare the collection.</p><Link className="button" href="/shop">Explore the collection <span aria-hidden="true">↗</span></Link><p className="collection-note">PDF patterns in preparation</p></div>
       <Link className="shop-teaser-image collection-photo" href="/shop"><Image src="/images/collection/crochet-basket.webp" alt="Cream handmade crochet basket filled with terracotta and grey yarn on a wooden stool" width={1400} height={2100} sizes="(max-width:800px) 90vw, 600px" /></Link>
     </section>
-    <section id="home-shop" className="container home-shop" aria-labelledby="home-shop-heading">
-      <div className="home-journal-heading"><div><p className="eyebrow">THE PATTERN SHOP</p><h2 id="home-shop-heading">Your next project.<br /><em>Starts with a little inspiration.</em></h2></div><Link className="text-link" href="/shop">Browse the shop <span aria-hidden="true">↗</span></Link></div>
-      <p className="home-shop-intro">Explore flowers, everyday bags, and the beginnings of our PDF collection. Find an idea you love and discover what we’re preparing.</p>
-      <div className="home-shop-grid">{patterns.map(pattern => <article className="journal-card pattern-card" key={pattern.slug}>
-        <div className="pattern-cover"><Link className="card-image" href={`/shop/${pattern.slug}`} aria-label={`Explore ${pattern.title}`}><Image src={pattern.image} alt={pattern.alt} fill sizes="(max-width:600px) 90vw, (max-width:1100px) 45vw, 280px" /></Link><span className="pattern-badge">{pattern.draftDownload ? "Free working draft" : "Coming soon"}</span></div>
-        <div className="card-body"><p className="eyebrow">{pattern.category}</p><h3><Link href={`/shop/${pattern.slug}`}>{pattern.title}</Link></h3><p className="muted">{pattern.draftDownload ? "Explore the rose concept and download its free, untested working draft." : `Discover our ${pattern.category.toLowerCase()} concept. PDF instructions and final details are in preparation.`}</p><div className="card-bottom"><Link className="article-link" href={`/shop/${pattern.slug}`}>{pattern.draftDownload ? "View the free draft" : "Explore the preview"} <span aria-hidden="true">↗</span></Link></div></div>
-      </article>)}</div>
-    </section>
+    <HomeShop />
     <section id="start" className="learning-section container"><div><p className="eyebrow">NEW TO CROCHET?</p><h2>Start with the basics.<br /><em>Build your confidence.</em></h2><p>Before your first project, get comfortable with a hook, a chain, and counting stitches. Our free guides help you build that foundation at your own pace.</p><Link className="text-link" href="/blog/how-to-crochet-for-beginners">Let’s get you started <span aria-hidden="true">→</span></Link></div><ol>{posts.slice(0, 3).map((post, index) => <li key={post.slug}><span className="step-number">0{index + 1}</span><div><h3><Link href={`/blog/${post.slug}`}>{["Meet your materials", "Understand the instructions", "Find your first project"][index]}</Link></h3><p>{["A hook, some yarn, and the tools worth keeping close.", "Make sense of patterns, stitch counts, and US / UK terms.", "Choose something small, satisfying, and manageable."][index]}</p></div><Link className="step-arrow" href={`/blog/${post.slug}`} aria-label={post.title}>↗</Link></li>)}</ol></section>
     <HomeVideo />
     <section className="container home-journal"><div className="home-journal-heading"><div><p className="eyebrow">NOTES FROM THE YARN BASKET</p><h2>A little guidance.<br /><em>A lot of inspiration.</em></h2></div><Link className="text-link" href="/blog">View all guides <span aria-hidden="true">↗</span></Link></div><div className="card-grid">{posts.map((post, index) => <PostCard key={post.slug} post={post} index={index} />)}</div></section>
