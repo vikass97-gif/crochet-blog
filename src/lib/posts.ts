@@ -3,7 +3,7 @@ export type Post = {
   title: string;
   category: string;
   description: string;
-  sections: { heading: string; text: string; image?: { src: string; alt: string; caption: string } }[];
+  sections: { heading: string; text: string; image?: { src: string; alt: string; caption: string; width?: number; height?: number } }[];
   faqs: { question: string; answer: string }[];
   references: { title: string; url: string }[];
 };
@@ -233,11 +233,13 @@ export const posts: Post[] = [
       },
       {
         "heading": "Turning chains: compare two different counting rules",
-        "text": "A turning chain raises the working loop so the next row can begin. Whether it counts as a stitch depends on the instructions. Our six-stitch single crochet exercise uses ch 1 for height only. You work into the first completed stitch and leave the turning chain out of the total.\n\nHere is a separate US double crochet counting example: ch 10, then dc in the fourth chain from the hook and each remaining chain. You make seven actual dc. If this example explicitly counts the three skipped chains as the first stitch, the row total is eight. Seven worked stitches plus one counted chain group gives eight; it does not mean eight worked dc.\n\nOn the next row, if ch 3 counts as the first dc, the starting chain group takes one position in the total. The remaining stitches and the last insertion point must follow that pattern’s notes. Write its chain rule beside the first row so you do not switch conventions halfway through. Count the grouped chains once, not as three separate stitches.",
+        "text": "A turning chain raises the working loop so the next row can begin. Whether it counts as a stitch depends on the instructions. Our six-stitch single crochet exercise uses ch 1 for height only. You work into the first completed stitch and leave the turning chain out of the total.\n\nHere is a separate US double crochet counting example: ch 10, then dc in the fourth chain from the hook and each remaining chain. You make seven actual dc. If this example explicitly counts the three skipped chains as the first stitch, the row total is eight. Seven worked stitches plus one counted chain group gives eight; it does not mean eight worked dc.\n\nOn the next row, if ch 3 counts as the first dc, the starting chain group takes one position in the total. The remaining stitches and the last insertion point must follow that pattern’s notes. Write its chain rule beside the first row so you do not switch conventions halfway through. Count the grouped chains once, not as three separate stitches.\n\nIn the illustration below, the turning chain counts as one US double crochet. Its base stitch is already represented by that chain, so make the first actual double crochet in the next stitch. In this counting convention, work into the top of the previous row’s turning chain at the far end of the row. If your pattern says the turning chain does not count, use its different first-stitch and edge instructions instead.",
         "image": {
-          "src": "/images/guides/reading-patterns/step-10.svg",
-          "alt": "Counting a chain group. Original schematic explaining the counts stated in the lesson.",
-          "caption": "Counting a chain group — original learning illustration. Click to view at full size."
+          "src": "/images/guides/illustrations/turning-chain-insertion-v1.webp",
+          "alt": "Two close-up crochet illustrations: incorrect insertion at the base of a counted turning chain, and correct insertion in the next stitch.",
+          "caption": "US double crochet: this comparison applies only when the turning chain counts as a stitch. Follow your pattern’s counting rule. Open the image for a larger view.",
+          "width": 1024,
+          "height": 1536
         }
       },
       {
