@@ -1,9 +1,11 @@
+export type PostImage = { src: string; alt: string; caption: string; width?: number; height?: number; credit?: { name: string; url: string; license: string; licenseUrl: string; changes: string } };
+
 export type Post = {
   slug: string;
   title: string;
   category: string;
   description: string;
-  sections: { heading: string; text: string; image?: { src: string; alt: string; caption: string; width?: number; height?: number } }[];
+  sections: { heading: string; text: string; image?: PostImage; images?: PostImage[] }[];
   faqs: { question: string; answer: string }[];
   references: { title: string; url: string }[];
 };
@@ -526,18 +528,62 @@ export const posts: Post[] = [
       },
       {
         "heading": "3. Make a slip knot",
-        "text": "Leave a tail of about 15 cm (6 inches), so you have yarn to weave in later. Identify the two ends before you start: the working yarn leads back to the ball; the tail is the short, free end. Keep that distinction as you follow the steps.\n\n1. Make a loose loop, crossing the working yarn over the tail. Hold the crossing gently so the loop does not fall apart.\n\n2. Fold a small bight of the working yarn and pull that folded loop through the first loop. Do not pull the short tail all the way through: you need an adjustable loop, not a fixed knot.\n\n3. Place the new adjustable loop over the crochet hook. Let the knot sit below the hook and move the loop onto the straight shaft, rather than tightening it around the narrow throat.\n\n4. Gently adjust the working yarn until the loop sits neatly around the shaft. It should still slide; you should not need to force the hook through it. If the knot is fixed or the loop will not move, loosen it and repeat the steps.\n\nCheckpoint: you have one live loop on the hook, a small knot below it, a working strand leading to the ball, and a free tail. Practise making and undoing the knot a few times before moving on. Neither the slip knot nor the live loop counts as a completed chain stitch."
+        "text": "Leave a tail of about 15 cm (6 inches), so you have yarn to weave in later. The working yarn leads back to the ball; the tail is the short free end. The six photographs below are read from left to right across the top row, then left to right across the bottom row.\n\n1. Lay a loose crossed loop over your fingers. Keep the short tail visible and identify the working strand before moving either one.\n\n2. Take a folded section of the working yarn through the original loop. Pull a small loop through, rather than passing the free end all the way through. The photograph shows fingers holding the new loop open.\n\n3. Hold the base of the loop with your other hand. Keep the short tail separate so you can see which strand leads back to the ball.\n\n4. Gently draw the new loop up while holding the strands beneath it. The original loop closes into the knot below. Do not pull the new loop so tight that you cannot insert the hook.\n\n5. Put the new adjustable loop over the hook. Move it onto the straight shaft, rather than tightening it around the narrow throat.\n\n6. Adjust the strands gently until the loop rests neatly around the shaft. It should still slide without forcing the hook. If the knot is fixed or the loop will not move, loosen it and repeat the steps.\n\nCheckpoint: you have one live loop on the hook, a small knot below it, a working strand leading to the ball, and a free tail. Practise making and undoing the knot before moving on. Neither the slip knot nor the live loop counts as a completed chain stitch.",
+        "image": {
+          "src": "/images/guides/real-photos/slip-knot-photos.webp",
+          "alt": "Six real photographs of hands forming a pink yarn slip knot, drawing a new loop through, placing it over a crochet hook and adjusting it.",
+          "caption": "Read left to right, top row then bottom row. Photographs: Postmodest, via Wikimedia Commons, CC0. Resized and converted to WebP; yarn paths are unchanged.",
+          "width": 1500,
+          "height": 1125
+        }
       },
       {
         "heading": "4. Crochet a foundation chain",
-        "text": "Begin with one adjustable loop on the hook. Hold the knot just below it with your non-hook hand, and let the working yarn feed from the ball without pulling tightly. These instructions describe a right-handed demonstration; a left-handed crocheter can mirror the hand positions while keeping the same yarn-over and pull-through sequence.\n\n1. Bring the working yarn over the hook from back to front. This is a yarn over. Catch that strand in the hook’s groove without wrapping the short tail around the hook.\n\n2. Turn the hook slightly so its head can pass through the existing loop. Draw the caught working yarn through that loop. Guide the yarn rather than pulling against a tightly pinched loop.\n\n3. Pause and look: one completed chain sits below the hook, and one new live loop remains on the hook. The loop you just pulled through becomes that live loop. Repeat yarn over and pull through to make the next chain.\n\nMove your holding fingers up towards the newest completed chain as the chain grows. Keep each loop loose enough for the hook to move smoothly, but not so loose that the chain becomes difficult to handle. If the hook catches, pause, loosen your grip, and check that the yarn is sitting in the groove.\n\nFor our practice rectangle, make 11 chains. To count, gently straighten the chain and find the small V shapes. Count only the completed chain links: exclude the slip knot and the live loop on the hook. The illustration below shows one completed chain so you can distinguish those parts before making a longer chain.\n\nCheckpoint: count 11 completed chains twice before starting the first row. In the next step, you will skip the chain nearest the hook and make a single crochet in the second chain and each remaining chain, giving ten single crochet stitches.\n\nA chain has several possible entry points. Some patterns use its back bumps or another loop arrangement. For this exercise, use the top-strand entry described in the next section consistently; you can explore other foundations once you can recognise your chains easily.",
-        "image": {
-          "src": "/images/guides/illustrations/foundation-chain-v1.webp",
-          "alt": "Three illustrated stages: yarn over, draw through the existing loop, and identify a completed chain separately from the live loop and slip knot.",
-          "caption": "A yarn over pulled through the live loop makes one chain. Repeat until you have 11 completed chains; the slip knot and live loop are excluded from the count. Open the illustration for a larger view.",
-          "width": 1024,
-          "height": 1536
-        }
+        "text": "Begin with one adjustable loop on the hook. Hold the knot just below it with your non-hook hand, and let the working yarn feed from the ball without pulling tightly. These instructions describe a right-handed demonstration; a left-handed crocheter can mirror the hand positions while keeping the same yarn-over and pull-through sequence.\n\n1. Bring the working yarn over the hook from back to front. This is a yarn over. Catch that strand in the hook’s groove without wrapping the short tail around the hook.\n\n2. Turn the hook slightly so its head can pass through the existing loop. Draw the caught working yarn through that loop. Guide the yarn rather than pulling against a tightly pinched loop.\n\n3. Pause and look: one completed chain sits below the hook, and one new live loop remains on the hook. The loop you just pulled through becomes that live loop. Repeat yarn over and pull through to make the next chain.\n\nMove your holding fingers up towards the newest completed chain as the chain grows. Keep each loop loose enough for the hook to move smoothly, but not so loose that the chain becomes difficult to handle. If the hook catches, pause, loosen your grip, and check that the yarn is sitting in the groove.\n\nFor our practice rectangle, make 11 chains. To count, gently straighten the chain and find the small V shapes. Count only the completed chain links: exclude the slip knot and the live loop on the hook. The photographs below show the movement on an existing chain so you can see the strand caught by the hook. They are not a sample with exactly 11 chains.\n\nCheckpoint: count 11 completed chains twice before starting the first row. In the next step, you will skip the chain nearest the hook and make a single crochet in the second chain and each remaining chain, giving ten single crochet stitches.\n\nA chain has several possible entry points. Some patterns use its back bumps or another loop arrangement. For this exercise, use the top-strand entry described in the next section consistently; you can explore other foundations once you can recognise your chains easily.",
+        "images": [
+          {
+            "src": "/images/guides/real-photos/chain-step-1.webp",
+            "alt": "Yarn over: blue working yarn caught in a purple crochet hook, with the existing live loop farther along the shaft.",
+            "caption": "1. Yarn over: catch the working yarn in the hook groove before drawing it through the existing loop.",
+            "width": 1500,
+            "height": 1125,
+            "credit": {
+              "name": "Stilfehler",
+              "url": "https://commons.wikimedia.org/wiki/File:Crochet_Chain_Stitch_(Step_1).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "changes": "Resized and converted to WebP; no changes to the yarn or hook."
+            }
+          },
+          {
+            "src": "/images/guides/real-photos/chain-step-2.webp",
+            "alt": "Purple hook drawing blue yarn through the existing loop at the end of a crochet chain.",
+            "caption": "2. Pull through: guide the caught strand through the existing loop to make the next chain.",
+            "width": 1500,
+            "height": 1125,
+            "credit": {
+              "name": "Stilfehler",
+              "url": "https://commons.wikimedia.org/wiki/File:Crochet_Chain_Stitch_(Step_2).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "changes": "Resized and converted to WebP; no changes to the yarn or hook."
+            }
+          },
+          {
+            "src": "/images/guides/real-photos/chain-result.webp",
+            "alt": "A real blue crochet chain laid on wood, showing its completed V-shaped links and an open live loop.",
+            "caption": "3. Inspect the chain: count completed links, excluding the open live loop. This photograph is not an eleven-chain counting example.",
+            "width": 1500,
+            "height": 1125,
+            "credit": {
+              "name": "Stilfehler",
+              "url": "https://commons.wikimedia.org/wiki/File:Crochet_Chain_Stitch.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "changes": "Resized and converted to WebP; no changes to the yarn or hook."
+            }
+          }
+        ]
       },
       {
         "heading": "5. Work your first row of single crochet",
@@ -668,6 +714,10 @@ export const posts: Post[] = [
       {
         "title": "Craft Yarn Council: crochet abbreviations",
         "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
+      },
+      {
+        "title": "Postmodest — six photographs of tying a crochet slip knot (CC0)",
+        "url": "https://commons.wikimedia.org/wiki/File:How_to_tie_a_crochet_slip_knot.jpg"
       }
     ]
   },
