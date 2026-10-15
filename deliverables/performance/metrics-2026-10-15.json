@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-15",
+  "environment": "Local next start, Chrome headless, Lighthouse default simulated mobile throttling",
+  "runs": [
+    {
+      "page": "home",
+      "stage": "before",
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100,
+      "lcpMs": 3402.211725,
+      "cls": 0.005736183187324591,
+      "tbtMs": 2
+    },
+    {
+      "page": "home",
+      "stage": "after",
+      "performance": 96,
+      "accessibility": 100,
+      "seo": 100,
+      "lcpMs": 2708.3752999999997,
+      "cls": 0.005736183187324591,
+      "tbtMs": 0
+    },
+    {
+      "page": "guide",
+      "stage": "before",
+      "performance": 98,
+      "accessibility": 100,
+      "seo": 100,
+      "lcpMs": 2432.0865000000003,
+      "cls": 0,
+      "tbtMs": 2.5
+    },
+    {
+      "page": "guide",
+      "stage": "after",
+      "performance": 98,
+      "accessibility": 100,
+      "seo": 100,
+      "lcpMs": 2453.6927,
+      "cls": 0,
+      "tbtMs": 0.5
+    },
+    {
+      "page": "shop",
+      "stage": "before",
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 69,
+      "lcpMs": 1728.7608999999998,
+      "cls": 0.005183763177940072,
+      "tbtMs": 5
+    },
+    {
+      "page": "shop",
+      "stage": "after",
+      "performance": 98,
+      "accessibility": 100,
+      "seo": 69,
+      "lcpMs": 2380.0898000000007,
+      "cls": 0,
+      "tbtMs": 1
+    }
+  ],
+  "lighthouseVersion": "13.5.0",
+  "chromeVersion": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+}

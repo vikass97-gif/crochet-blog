@@ -36,3 +36,5 @@ New footage (Pexels License, https://www.pexels.com/license/):
   Source: https://videos.pexels.com/video-files/6653125/6653125-uhd_4096_2160_25fps.mp4
 
 Footage visually checked: yarn winding and crocheting with a single hook. Stock subjects are illustrative; no endorsement is implied. No music or third-party audio used. Credits retained here at the owner's request. Poster extracted from the new montage; title captions match the edit.
+
+Performance derivative (2026-10-15): crochet-introduction-v2-poster.webp is the existing v2 poster resized to 1280×720 and encoded as WebP. Frame contents unchanged; original sources and licences above apply.

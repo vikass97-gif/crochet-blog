@@ -16,7 +16,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return <html lang="en"><body>
     <a className="skip-link" href="#main-content">Skip to content</a>
     <header id="top" className="site-header"><div className="header-inner container">
-      <Link className="brand" href="/" aria-label="Loop and Stitch home">loop<span>&</span>stitch<small>THE CROCHET JOURNAL</small></Link>
+      <Link className="brand" href="/">loop<span>&</span>stitch<small>THE CROCHET JOURNAL</small></Link>
       <Suspense fallback={<nav aria-label="Main navigation"><Link href="/shop">Pattern collection</Link><Link href="/blog">Free guides</Link><Link href="/about">Our approach</Link></nav>}><SiteNavigation /></Suspense>
     </div></header>
     {children}
