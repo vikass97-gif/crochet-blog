@@ -587,20 +587,82 @@ export const posts: Post[] = [
       },
       {
         "heading": "5. Work your first row of single crochet",
-        "text": "Find the second chain away from your hook, remembering that the live loop is not a chain. For this exercise, insert the hook under the top strand of that chain. Yarn over and draw the yarn back through the chain: there are now two loops on the hook. Yarn over once more and draw through both loops. One single crochet is complete, leaving one live loop.\n\nWork one single crochet into each remaining chain, using the same top-strand entry each time. Do not work into the slip knot. At the end, you should have 10 single crochet stitches.\n\nLook at the top edge of the new row. Each finished stitch has a V made of two loops. Count these Vs to check the total, and place a marker through both top loops of the first and last stitches. These markers help you find the edges when you turn.\n\nIf the yarn splits, remove the hook from that entry and insert it again through the intended loop. Avoid pulling a stitch through only part of the yarn strand. Keep the first row close to your guiding hand so the chain does not stretch and twist while you search for the next insertion point.",
-        "image": {
-          "src": "/images/guides/how-to-crochet-for-beginners/step-06.svg",
-          "alt": "Three schematic rows of ten V-shaped stitch tops. First and last columns are marked.",
-          "caption": "Schematic stitch tops, not a view of the full fabric. In this single crochet sample, mark the first and last stitches and keep ten stitches per row; the turning chain is excluded."
-        }
+        "text": "Before starting, count 11 completed chains. The live loop on your hook is not a chain. Starting at the hook end, identify the first completed V and then the second: the second chain is where the first single crochet goes. Leave the first chain unworked.\n\n1. For this first-row exercise, insert the hook under the top strand of the second chain. Do not yarn over before inserting the hook. Keep the live loop on the hook as you enter the chain.\n\n2. Yarn over and draw the caught yarn back through the chain opening. Pause here: there should be two loops on the hook. Drawing up this loop has not yet completed the stitch.\n\n3. Yarn over once more and draw the caught strand through both loops on the hook. One single crochet is complete. You should have one live loop left, ready for the next stitch.\n\n4. Work one single crochet in each remaining chain, using the same top-strand entry each time. Do not work into the slip knot. Eleven starting chains, with the chain nearest the hook skipped, give ten insertion points and ten single crochet stitches.\n\n5. Count the top Vs of your finished stitches, not the side posts or the live loop. Each V is one stitch. Check the ten-stitch total before turning, then put removable markers through the top loops of the first and last stitches. If the total differs, find the missed chain or extra insertion now instead of compensating in the next row.\n\nPhoto demonstration: the four close-ups below show the single crochet movement in a yellow row on an existing blue swatch. They are not photographs of the first row in a foundation chain and do not show our exact ten-stitch exercise. The hook goes under both top loops of a blue stitch in these photos; for your foundation row, use the chain entry described above. You can keep using one colour for your own practice.\n\nIf the yarn splits, back out of that insertion and try again without catching only some of its fibres. If you finish a stitch and still have two loops on the hook, check whether you stopped after drawing up the loop. Keep the chain near your guiding fingers so it does not twist while you find the next entry point.",
+        "images": [
+          {
+            "src": "/images/guides/real-photos/single-step-1.webp",
+            "alt": "A purple hook inserted under the top loops of a blue stitch, with yellow working yarn over its groove.",
+            "caption": "1. Insert the hook under both top loops of the next blue stitch. The yellow working yarn is caught for the first pull-through.",
+            "width": 1500,
+            "height": 1125,
+            "credit": {
+              "name": "Stilfehler",
+              "url": "https://commons.wikimedia.org/wiki/File:Crochet_Single_Stitch_(Step_1).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "changes": "Resized and converted to WebP; yarn and hook positions are unchanged."
+            }
+          },
+          {
+            "src": "/images/guides/real-photos/single-step-2.webp",
+            "alt": "Two yellow loops on a purple hook after yarn has been drawn through a blue crochet stitch.",
+            "caption": "2. Draw the yellow yarn through the blue stitch. Two yellow loops are on the hook; the single crochet is not finished yet.",
+            "width": 1500,
+            "height": 1125,
+            "credit": {
+              "name": "Stilfehler",
+              "url": "https://commons.wikimedia.org/wiki/File:Crochet_Single_Stitch_(Step_2).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "changes": "Resized and converted to WebP; yarn and hook positions are unchanged."
+            }
+          },
+          {
+            "src": "/images/guides/real-photos/single-step-3.webp",
+            "alt": "Yellow yarn caught by a purple hook in front of two yellow loops on its shaft.",
+            "caption": "3. Yarn over again, keeping the two loops on the shaft ready for the final pull-through.",
+            "width": 1500,
+            "height": 1125,
+            "credit": {
+              "name": "Stilfehler",
+              "url": "https://commons.wikimedia.org/wiki/File:Crochet_Single_Stitch_(Step_3).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "changes": "Resized and converted to WebP; yarn and hook positions are unchanged."
+            }
+          },
+          {
+            "src": "/images/guides/real-photos/single-step-4.webp",
+            "alt": "A completed yellow single crochet at the edge of a yellow row, with one live loop on the hook.",
+            "caption": "4. Draw through both loops to finish the single crochet. One live loop remains on the hook.",
+            "width": 1500,
+            "height": 1125,
+            "credit": {
+              "name": "Stilfehler",
+              "url": "https://commons.wikimedia.org/wiki/File:Crochet_Single_Stitch_(Step_4).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "changes": "Resized and converted to WebP; yarn and hook positions are unchanged."
+            }
+          }
+        ]
       },
       {
         "heading": "6. Turn and make the next row",
-        "text": "Chain one, then turn the fabric like a page so you can work back across it. In this exercise, the turning chain provides height and does not count as a stitch. Leave the live loop on the hook throughout the turn.\n\nInsert the hook under both top loops of the first single crochet directly below the turning chain. Yarn over, draw up a loop, yarn over again, and draw through both loops on the hook. Work one single crochet under both top loops of every stitch across, including the marked last stitch.\n\nCount 10 stitches again. Do not add a stitch into the turning chain. Move your markers to the first and last stitches of the new row. Other patterns may treat turning chains differently, so use their own instructions when you move on from this exercise.",
+        "text": "First check that row one contains ten single crochet stitches. Keep the hook inside the live loop. Yarn over and pull through that loop once to make chain one, then turn the fabric like a page so you can work back across the row. Keep the yarn free to feed rather than winding it tightly around the hook as you turn.\n\nIn this exercise, chain one provides height and does not count as a stitch. The first single crochet therefore goes in the first completed stitch directly below the turning chain, not in the next one. Find the marked stitch before inserting the hook. The marked stitch was the last stitch you made in the previous row and is now the first one you work into.\n\nInsert the hook under both loops of that stitch’s top V. Yarn over, draw up a loop, then yarn over and draw through both loops. Put a marker in the new stitch once it is complete. Use the four movement photos in the previous section to check the two-loop checkpoint and the final pull-through.\n\nContinue with one single crochet under both top loops of every stitch across. Work into the marked last stitch, then move that marker into the new last stitch. Do not add a stitch in the turning chain.\n\nCount ten top Vs again, excluding the live loop and the turning chain. Nine stitches often means an edge stitch was missed; eleven may mean the turning chain was counted or an entry was used twice. Inspect the edges before beginning another row.\n\nThe photograph below shows a real single crochet swatch at its edge with the hook and a short turning chain visible. It is an edge reference, not a sequence showing the physical turn and not a sample made from our ten-stitch exercise. Your practice can remain the same colour throughout. Other patterns may count turning chains differently, so follow their own notes when you move on from this exercise.",
         "image": {
-          "src": "/images/guides/how-to-crochet-for-beginners/step-07.svg",
-          "alt": "Three schematic rows of ten V-shaped stitch tops. First and last columns are marked.",
-          "caption": "Schematic stitch tops, not a view of the full fabric. In this single crochet sample, mark the first and last stitches and keep ten stitches per row; the turning chain is excluded."
+          "src": "/images/guides/real-photos/single-turning.webp",
+          "alt": "A cream single crochet swatch with a purple hook at its upper-left edge and a short turning chain beside the live loop.",
+          "caption": "Row-edge reference: keep the live loop on the hook as you prepare to work back across the swatch. In our exercise, chain one is not counted. The first actual stitch goes under both loops of the first stitch.",
+          "width": 1500,
+          "height": 1090,
+          "credit": {
+            "name": "Durova",
+            "url": "https://commons.wikimedia.org/wiki/File:Singleturning.jpg",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "changes": "Resized and converted to WebP; yarn and hook positions are unchanged."
+          }
         }
       },
       {
