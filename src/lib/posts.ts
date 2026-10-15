@@ -587,8 +587,36 @@ export const posts: Post[] = [
       },
       {
         "heading": "5. Work your first row of single crochet",
-        "text": "Before starting, count 11 completed chains. The live loop on your hook is not a chain. Starting at the hook end, identify the first completed V and then the second: the second chain is where the first single crochet goes. Leave the first chain unworked.\n\n1. For this first-row exercise, insert the hook under the top strand of the second chain. Do not yarn over before inserting the hook. Keep the live loop on the hook as you enter the chain.\n\n2. Yarn over and draw the caught yarn back through the chain opening. Pause here: there should be two loops on the hook. Drawing up this loop has not yet completed the stitch.\n\n3. Yarn over once more and draw the caught strand through both loops on the hook. One single crochet is complete. You should have one live loop left, ready for the next stitch.\n\n4. Work one single crochet in each remaining chain, using the same top-strand entry each time. Do not work into the slip knot. Eleven starting chains, with the chain nearest the hook skipped, give ten insertion points and ten single crochet stitches.\n\n5. Count the top Vs of your finished stitches, not the side posts or the live loop. Each V is one stitch. Check the ten-stitch total before turning, then put removable markers through the top loops of the first and last stitches. If the total differs, find the missed chain or extra insertion now instead of compensating in the next row.\n\nPhoto demonstration: the four close-ups below show the single crochet movement in a yellow row on an existing blue swatch. They are not photographs of the first row in a foundation chain and do not show our exact ten-stitch exercise. The hook goes under both top loops of a blue stitch in these photos; for your foundation row, use the chain entry described above. You can keep using one colour for your own practice.\n\nIf the yarn splits, back out of that insertion and try again without catching only some of its fibres. If you finish a stitch and still have two loops on the hook, check whether you stopped after drawing up the loop. Keep the chain near your guiding fingers so it does not twist while you find the next entry point.",
+        "text": "Before starting, count 11 completed chains. The live loop on your hook is not a chain. Starting at the hook end, identify the first completed V and then the second: the second chain is where the first single crochet goes. Leave the first chain unworked.\n\n1. For this first-row exercise, insert the hook under the top strand of the second chain. Do not yarn over before inserting the hook. Keep the live loop on the hook as you enter the chain.\n\n2. Yarn over and draw the caught yarn back through the chain opening. Pause here: there should be two loops on the hook. Drawing up this loop has not yet completed the stitch.\n\n3. Yarn over once more and draw the caught strand through both loops on the hook. One single crochet is complete. You should have one live loop left, ready for the next stitch.\n\n4. Work one single crochet in each remaining chain, using the same top-strand entry each time. Do not work into the slip knot. Eleven starting chains, with the chain nearest the hook skipped, give ten insertion points and ten single crochet stitches.\n\n5. Count the top Vs of your finished stitches, not the side posts or the live loop. Each V is one stitch. Check the ten-stitch total before turning, then put removable markers through the top loops of the first and last stitches. If the total differs, find the missed chain or extra insertion now instead of compensating in the next row.\n\nPhoto demonstrations: the first two images are stills from a filmed demonstration of the first single crochet into a foundation chain. The purple yarn shows the insertion in the second chain, then the two-loop checkpoint after drawing up a loop. They demonstrate the movement, not an exact eleven-chain sample.\n\nThe next four close-ups use yellow yarn on an existing blue swatch to make the stitch movements easier to distinguish. In those four photos the hook goes under both top loops of a blue stitch. For your foundation row, use the chain entry described above instead. You can keep using one colour for your own practice.\n\nIf the yarn splits, back out of that insertion and try again without catching only some of its fibres. If you finish a stitch and still have two loops on the hook, check whether you stopped after drawing up the loop. Keep the chain near your guiding fingers so it does not twist while you find the next entry point.",
         "images": [
+          {
+            "src": "/images/guides/real-photos/foundation-inserted-v1.webp",
+            "alt": "Blue crochet hook inserted into the second chain of a purple foundation chain held between the demonstrator’s fingers.",
+            "caption": "Foundation row — insert the hook into the second completed chain from the hook, leaving the nearest chain unworked. The live loop stays on the hook.",
+            "width": 1500,
+            "height": 844,
+            "credit": {
+              "name": "Cary Bass-Deschênes",
+              "url": "https://commons.wikimedia.org/wiki/File:How_to_crochet_3_sc_into_ch.webm",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "changes": "Still frame at 00:10.5, resized and converted to WebP. Original video text retained; yarn and hook unchanged."
+            }
+          },
+          {
+            "src": "/images/guides/real-photos/foundation-draw-up-v1.webp",
+            "alt": "Two purple loops on a blue hook after yarn has been drawn through the foundation chain.",
+            "caption": "Foundation row — after drawing yarn through the chain, two loops remain on the hook. Yarn over and draw through both to finish the single crochet.",
+            "width": 1500,
+            "height": 844,
+            "credit": {
+              "name": "Cary Bass-Deschênes",
+              "url": "https://commons.wikimedia.org/wiki/File:How_to_crochet_3_sc_into_ch.webm",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "changes": "Still frame at 00:14.2, resized and converted to WebP. Original video text retained; yarn and hook unchanged."
+            }
+          },
           {
             "src": "/images/guides/real-photos/single-step-1.webp",
             "alt": "A purple hook inserted under the top loops of a blue stitch, with yellow working yarn over its groove.",
@@ -780,6 +808,10 @@ export const posts: Post[] = [
       {
         "title": "Postmodest — six photographs of tying a crochet slip knot (CC0)",
         "url": "https://commons.wikimedia.org/wiki/File:How_to_tie_a_crochet_slip_knot.jpg"
+      },
+      {
+        "title": "Cary Bass-Deschênes — filmed demonstration of single crochet into a foundation chain (CC BY 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:How_to_crochet_3_sc_into_ch.webm"
       }
     ]
   },

@@ -23,3 +23,13 @@ Author Stilfehler, CC BY-SA 4.0. All four images inspected: insertion/yarn-over,
 - single-turning.webp: Durova, https://commons.wikimedia.org/wiki/File:Singleturning.jpg . CC BY-SA 4.0 selected from the offered licences. Inspected as a static row-edge reference only, not a full turning-motion sequence or a verified ten-stitch swatch.
 
 All derivatives remain CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/ . Changes: resize to at most 1500px wide, WebP conversion. No crop, synthetic yarn, colour replacement or generative edit. Each caption links author/source/licence and states changes.
+
+## Foundation-row insertion — 2026-10-15
+
+Source: https://commons.wikimedia.org/wiki/File:How_to_crochet_3_sc_into_ch.webm
+Author: Cary Bass-Deschênes (Bastique). Visual footage CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . No audio or music is used.
+
+- foundation-inserted-v1.webp: still at 00:10.5, hook entering second chain.
+- foundation-draw-up-v1.webp: still at 00:14.2, two-loop checkpoint.
+
+Extracted frames inspected at original 1920×1080 resolution. Changes: frame extraction, resize to 1500×844 and WebP conversion. Original on-screen instructions retained. No reconstruction of yarn, no synthetic additions or geometry edits. Source does not demonstrate an exact eleven-chain sample. Source inspected in full contact sheet: it covers starting a first row, not turning a completed row; it must not be captioned as a row-turning sequence.
