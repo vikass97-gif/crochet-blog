@@ -11,7 +11,7 @@ const collectionCategory = (category: string) =>
 export function HomeShop() {
   const [category, setCategory] = useState("All projects");
   const categories = ["All projects", ...new Set(patterns.map(pattern => collectionCategory(pattern.category)))];
-  const matching = patterns.filter(pattern => category === "All projects" || collectionCategory(pattern.category) === category);
+  const matching = [...patterns].reverse().filter(pattern => category === "All projects" || collectionCategory(pattern.category) === category);
   const featured = matching.slice(0, 4);
 
   return <section id="home-shop" className="container home-shop" aria-labelledby="home-shop-heading">

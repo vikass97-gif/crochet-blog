@@ -10,6 +10,7 @@ export type Pattern = {
   materials: string[];
   plannedContents: string[];
   credit: { name: string; url: string };
+  guideSlug?: string;
   draftDownload?: { url: string; version: string };
 };
 
@@ -139,7 +140,101 @@ export const patterns: Pattern[] = [
     "credit": {
       "name": "Nur Tok",
       "url": "https://www.pexels.com/photo/handmade-crochet-bag-on-checkered-blanket-outdoors-30224894/"
-    }
+    },
+    "guideSlug": "choosing-your-first-crochet-bag"
+  },
+  {
+    "slug": "granny-square-edit",
+    "title": "The Granny Square Edit",
+    "category": "Granny squares",
+    "level": "Confident beginner",
+    "image": "/images/collections/granny-squares.webp",
+    "alt": "Real photograph of a colourful crochet motif blanket with grey borders",
+    "description": "A planned collection of square motifs and joining ideas for personal handmade projects. The photograph illustrates decorative motif inspiration; final square designs and PDF instructions are in development.",
+    "skills": [
+      "Recognising stitch groups and corner spaces",
+      "Checking round endings",
+      "Matching motif sizes",
+      "Joining and weaving in ends"
+    ],
+    "materials": [
+      "Smooth yarn in a coordinated palette, specification to be confirmed",
+      "A crochet hook matched to the final gauge",
+      "Markers, measuring tape, scissors, and yarn needle"
+    ],
+    "plannedContents": [
+      "Motif instructions and round checkpoints",
+      "Corner and joining guidance",
+      "Colour-planning notes",
+      "Finished dimensions and care information"
+    ],
+    "credit": {
+      "name": "Ksenia Chernaya",
+      "url": "https://www.pexels.com/photo/close-up-shot-of-a-knitted-textile-5806996/"
+    },
+    "guideSlug": "granny-squares-for-beginners"
+  },
+  {
+    "slug": "everyday-crochet-coasters",
+    "title": "The Everyday Coaster Set",
+    "category": "Coasters",
+    "level": "Confident beginner",
+    "image": "/images/collections/coaster.webp",
+    "alt": "Real photograph of a round blue-and-white crochet coaster on a pale background",
+    "description": "A planned PDF collection of small crochet coasters for everyday tables. Explore shape and colour inspiration while we prepare the pattern and confirm its materials and finished measurements. The photo is not a sample of our pattern.",
+    "skills": [
+      "Maintaining an even stitch count",
+      "Checking fabric flatness",
+      "Making consistent edges",
+      "Finishing a matching set"
+    ],
+    "materials": [
+      "Yarn suited to the final design and its care requirements",
+      "A suitable hook, to be confirmed with the final gauge",
+      "Measuring tape, scissors, and yarn needle"
+    ],
+    "plannedContents": [
+      "Coaster construction instructions",
+      "Count and flatness checkpoints",
+      "Colour and set-planning ideas",
+      "Finished dimensions and washing notes"
+    ],
+    "credit": {
+      "name": "Belén Montero",
+      "url": "https://www.pexels.com/photo/blue-and-white-crochet-coaster-on-light-background-36644648/"
+    },
+    "guideSlug": "crochet-coasters-beginner-guide"
+  },
+  {
+    "slug": "little-crochet-storage-basket",
+    "title": "The Little Storage Basket",
+    "category": "Baskets",
+    "level": "Confident beginner",
+    "image": "/images/collections/basket-detail.webp",
+    "alt": "Real photograph of a cream textile basket filled with terracotta, burgundy, and grey yarn",
+    "description": "A small indoor storage basket concept for organising lightweight craft supplies. The photograph sets the mood for the collection; the base, sides, rim, and final PDF specifications are still being developed.",
+    "skills": [
+      "Following base-shaping instructions",
+      "Checking rounds and measurements",
+      "Building even side walls",
+      "Securing ends and finishing the rim"
+    ],
+    "materials": [
+      "Yarn with suitable structure, final specification to be confirmed",
+      "A hook matched to the final fabric and gauge",
+      "Stitch markers, measuring tape, scissors, and yarn needle"
+    ],
+    "plannedContents": [
+      "Base and side-wall instructions",
+      "Shape and stitch-count checkpoints",
+      "Rim finishing guidance",
+      "Confirmed size, materials, and care notes"
+    ],
+    "credit": {
+      "name": "Vlada Karpovich",
+      "url": "https://www.pexels.com/photo/yarns-in-a-basket-5602984/"
+    },
+    "guideSlug": "crochet-baskets-beginner-guide"
   }
 ];
 

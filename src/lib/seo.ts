@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getPattern } from "./patterns";
 import { guideImages } from "./guide-images";
 import { getSiteUrl, siteConfig } from "./site-config";
 
@@ -19,7 +20,8 @@ export function pageMetadata(title: string, description: string, path: string, a
     "/blog/how-to-crochet-for-beginners": { path: "/images/blog/beginners.webp", alt: "A crochet practice rectangle" },
   };
   const guide = path.startsWith("/blog/") ? guideImages[path.slice("/blog/".length)] : undefined;
-  const cover = (guide ? { path: guide.src, alt: guide.alt } : covers[path]) || { path: "/images/crochet.jpg", alt: "Yarn, crochet hook and a handmade swatch" };
+  const pattern = path.startsWith("/shop/") ? getPattern(path.slice("/shop/".length)) : undefined;
+  const cover = (pattern ? { path: pattern.image, alt: pattern.alt } : guide ? { path: guide.src, alt: guide.alt } : covers[path]) || { path: "/images/crochet.jpg", alt: "Yarn, crochet hook and a handmade swatch" };
   const images = [{ url: new URL(cover.path, base).href, alt: cover.alt }];
   return {
     title, description,

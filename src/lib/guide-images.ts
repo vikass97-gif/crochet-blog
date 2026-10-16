@@ -7,4 +7,7 @@ export const guideImages: Record<string, { src: string; alt: string; position?: 
   "crochet-tension-and-gauge": { src: "/images/blog/tension.webp", alt: "Brown crochet fabric and working yarn beside a crochet hook", position: "center 72%" },
   "how-to-finish-crochet-projects": { src: "/images/blog/toolkit.webp", alt: "Yarn needle, scissors and crochet tools ready for finishing" },
   "choosing-your-first-crochet-bag": { src: "/images/bags/everyday-bag.webp", alt: "Cream crochet bag with brown edging on a blue checked blanket", position: "center 65%" },
+  "granny-squares-for-beginners": { src: "/images/collections/granny-squares.webp", alt: "Colourful crochet square motifs joined with grey borders", position: "center 55%" },
+  "crochet-coasters-beginner-guide": { src: "/images/collections/coaster.webp", alt: "A real blue-and-white round crochet coaster on a light background" },
+  "crochet-baskets-beginner-guide": { src: "/images/collection/crochet-basket.webp", alt: "A cream handmade basket holding yarn on a wooden stool", position: "center 78%" },
 };

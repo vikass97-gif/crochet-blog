@@ -5,6 +5,7 @@ import Image from "next/image";
 import { guideImages } from "@/lib/guide-images";
 import { notFound } from "next/navigation";
 import { getPost, posts, getPostBody, getPostWordCount } from "@/lib/posts";
+import { patterns } from "@/lib/patterns";
 import { PostCard, readingMinutes } from "@/components/post-card";
 import { JsonLd } from "@/components/json-ld";
 import { pageMetadata } from "@/lib/seo";
@@ -41,6 +42,7 @@ async function ArticleDetails({ params }: Props) {
   const base = getSiteUrl();
   const url = base ? new URL(`/blog/${post.slug}`, base).href : undefined;
   const cover = guideImages[post.slug];
+  const project = patterns.find(pattern => pattern.guideSlug === post.slug);
   const techniqueSlugs = ["essential-crochet-stitches", "crochet-tension-and-gauge", "how-to-finish-crochet-projects"];
   const related = [...posts.filter(item => techniqueSlugs.includes(item.slug)), ...posts.filter(item => !techniqueSlugs.includes(item.slug))].filter(item => item.slug !== post.slug).slice(0, 3);
   return <>
@@ -51,7 +53,7 @@ async function ArticleDetails({ params }: Props) {
     {cover && <div className="article-cover"><Image src={cover.src} alt={cover.alt} loading="eager" fetchPriority="high" style={{ objectPosition: cover.position }} fill sizes="(max-width:800px) 90vw, (max-width:1000px) 90vw, 900px" /></div>}
     <div className="article-layout"><aside className="article-toc"><p className="eyebrow">IN THIS GUIDE</p><nav aria-label="Table of contents">{post.sections.map((section, index) => <a key={section.heading} href={`#section-${index + 1}`}><span>{String(index + 1).padStart(2, "0")}</span>{section.heading}</a>)}<a href="#frequently-asked-questions">Frequently asked questions</a><a href="#references">References & further reading</a></nav></aside><article className="article-content">{post.sections.map((section, index) => <section id={`section-${index + 1}`} className="article-section" key={section.heading}><h2>{section.heading}</h2>{section.text.split("\n\n").map((paragraph, i) => <p key={i}>{paragraph}</p>)}{(section.images ?? (section.image ? [section.image] : [])).map(image => <figure className="article-step-figure" key={image.src}><a href={image.src} target="_blank" rel="noopener noreferrer" aria-label={`View step image: ${section.heading} (opens in a new tab)`}><Image src={image.src} alt={image.alt} width={image.width ?? 900} height={image.height ?? 400} sizes="(max-width:800px) 90vw, (max-width:1178px) calc(90vw - 320px), 740px" /></a><figcaption>{image.caption}{image.credit && <> Photo: <a href={image.credit.url}>{image.credit.name}</a> · <a href={image.credit.licenseUrl}>{image.credit.license}</a>. {image.credit.changes}</>}</figcaption></figure>)}</section>)}<section id="frequently-asked-questions" className="article-section article-faq"><h2>Frequently asked questions</h2>{post.faqs.map(item => <details key={item.question}><summary>{item.question}</summary><p>{item.answer}</p></details>)}</section>
     <aside id="references" className="terminology-note article-references"><h2>References & further reading</h2><p>Use these references for terminology, material standards, and further demonstrations. The practice examples in this guide are explained in the article.</p><ul>{post.references.map(reference => <li key={reference.url}><a href={reference.url}>{reference.title}</a></li>)}</ul></aside>
-    <div className="article-ending"><p>Keep learning, one stitch at a time.</p><Link className="text-link" href="/blog">Back to the journal →</Link></div></article></div>
+    <div className="article-ending">{project && <p><Link className="text-link" href={`/shop/${project.slug}`}>Explore {project.title} <span aria-hidden="true">↗</span></Link></p>}<p>Keep learning, one stitch at a time.</p><Link className="text-link" href="/blog">Back to the journal →</Link></div></article></div>
     <section className="related-guides"><p className="eyebrow">YOUR NEXT CHAPTER</p><h2>Keep your curiosity <em>going.</em></h2><div className="card-grid">{related.map((item, index) => <PostCard key={item.slug} post={item} index={index} />)}</div></section>
   </>;
 }

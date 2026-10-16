@@ -1330,6 +1330,288 @@ export const posts: Post[] = [
         "url": "https://alyssiacreates.com/how-to-sew-a-fabric-lining-for-a-crochet-bag/"
       }
     ]
+  },
+  {
+    "slug": "granny-squares-for-beginners",
+    "title": "Granny Squares for Beginners: Corners, Colours, and Your First Project",
+    "category": "Granny squares",
+    "description": "Understand granny square construction, choose yarn, recognise corners, compare motifs, and plan joining and finishing before starting your first project.",
+    "sections": [
+      {
+        "heading": "Choose one square before planning a blanket",
+        "text": "A blanket made from small colourful squares can look like the perfect first crochet project. The useful first goal, though, is one square that you understand. Finishing a single motif lets you practise its centre, corners, round endings, and yarn ends before repeating the same decisions many times.\n\nStart by choosing a complete pattern with a clear materials list and instructions for each round. This guide explains how to approach that pattern and inspect your work; it is not a stitch-by-stitch pattern for the photographed blanket. The motifs in the photographs include decorative centres, so their appearance should not be used to infer the instructions for a basic granny square. Put the full project aside until you can finish and measure one sample comfortably."
+      },
+      {
+        "heading": "Know which kind of granny square you have chosen",
+        "text": "Granny square is used for a wide family of motifs. A traditional open square often uses groups of US double crochet stitches separated by spaces. Other designs make a solid fabric, begin with a flower, or use a circular centre before introducing corners. Similar finished shapes do not mean identical instructions.\n\nCheck the pattern’s stitch key before starting. A simple group of three double crochet stitches is not necessarily a special cluster worked together at the top. Those constructions produce different fabric and need different actions. When a designer defines a special stitch, use that definition throughout. Choose a design with techniques you already recognise, or practise the unfamiliar technique separately before working it into the square.",
+        "image": {
+          "src": "/images/collections/granny-squares.webp",
+          "alt": "A real blanket made from decorative square crochet motifs with grey joins",
+          "caption": "Decorative motifs can begin with different centres. This blanket is a visual comparison, not a sample of a basic granny-square practice pattern.",
+          "width": 1400,
+          "height": 2097
+        }
+      },
+      {
+        "heading": "Build a small, consistent materials kit",
+        "text": "Use smooth yarn that lets you see the stitch tops and corner spaces. A light or medium solid colour is helpful when you are still learning where the hook goes. Start with the yarn and hook recommended by your chosen pattern rather than substituting several materials at once.\n\nFor a project made from many motifs, consistency matters as much as the feel of one square. Record the exact yarn name, fibre, colour, and hook size. If you mix leftover yarn, compare thickness, care instructions, and the fabric each yarn produces. Two yarns described as the same weight category can still behave differently. Keep scissors, a yarn needle, removable markers, and a measuring tape together so that finishing and checking do not become separate shopping tasks."
+      },
+      {
+        "heading": "Read the centre and first round slowly",
+        "text": "Before making a centre, read the whole first round and identify where its stitches are placed. A pattern may start with a joined chain ring or an adjustable ring. Follow the method it actually teaches, including how its beginning chains are counted. Do not swap starts halfway through simply because another tutorial uses a different one.\n\nPause when the first round is complete. Locate the beginning, the join if there is one, and the spaces that the next round will use. If you cannot identify them in the fabric, reread the instruction before continuing. The close-up photograph here shows real hands working a small motif, but it is a process reference, not a photographed sequence of our instructions. Use the pattern’s own demonstrations when you need to see the exact start.",
+        "image": {
+          "src": "/images/collections/granny-making.webp",
+          "alt": "Hands working a small crochet motif beside several square motifs in warm daylight",
+          "caption": "A real making scene showing yarn handling and a small motif. It does not document the numbered rounds of a specific pattern.",
+          "width": 1400,
+          "height": 2488
+        }
+      },
+      {
+        "heading": "Find four corners before counting the sides",
+        "text": "A square needs its shaping in the intended places. Mark the four corner spaces described by your pattern before working the next round. This makes it easier to distinguish a corner space from an ordinary space along a side, especially when the fabric is still small and can rotate in your hands.\n\nDo not assume every space receives the same group of stitches. A corner commonly needs a different combination from a side, and the exact chains and stitch groups depend on the design. Read the corner instruction as a complete unit, then compare each of the four corners after the round. If only three corners look right, adding more rounds will not repair the missing shaping. Return to the last point where the construction matches the pattern."
+      },
+      {
+        "heading": "Use a repeatable round-ending checkpoint",
+        "text": "At the end of each round, count the units your pattern asks you to check: stitches, groups, spaces, or some combination. These are different counts. A line saying that a side contains four groups does not mean it contains only four individual stitches. Keep the pattern’s count beside the round you are working.\n\nInspect the start and end of the round particularly carefully. An extra group near the join can be difficult to notice when the rest of the square looks regular. Confirm whether beginning chains represent a stitch or only provide height, and make the join in the specified location. A removable marker can identify the first counted stitch while you learn. Record the completed round before putting the square away."
+      },
+      {
+        "heading": "Add colour without creating a finishing problem",
+        "text": "For a first sample, a single colour keeps the focus on construction. Once that sample is understandable, use a second square to try colour changes. Make a short colour plan that records which yarn belongs to each round, then leave usable tails according to the joining method and yarn you are using.\n\nChanging colour every round creates more ends to secure. Decide whether you are willing to weave those ends in across an entire project, not just one attractive motif. Work neatly without pulling the new colour so tightly that the join distorts. Keep the yarn labels with your colour notes. If the squares are intended for one washable item, consider whether all the chosen colours and fibres can be cared for together."
+      },
+      {
+        "heading": "Measure matching squares before joining",
+        "text": "Lay completed squares flat without stretching them and compare side lengths. For a repeated-motif project, record the number of rounds as well as the measurements. Two squares can use the same round count but differ in size because of yarn or tension. Resolve that difference while there are only a few samples.\n\nFollow the pattern and yarn care instructions when preparing squares for assembly. Gentle shaping may help organise a square, but forcing a badly mismatched piece to a target size can hide a problem rather than solve it. Check that the corners remain recognisable and that the fabric is comfortable for its intended use. Save a prepared reference square beside your materials so you can compare later motifs against the same example."
+      },
+      {
+        "heading": "Plan the joins as part of the design",
+        "text": "A pile of finished squares is only one stage of a larger project. Read the joining method before making every motif, because some methods are worked during the final round while others are completed after the pieces are finished. The join can change the appearance, flexibility, and dimensions of the finished fabric.\n\nPractise on two spare squares. Check which sides should face you, how corners align, and whether the join pulls the edges together evenly. For a layout of three squares across and two down, you need six squares, but the final width cannot be assumed to equal three unjoined side lengths exactly. Joins and borders can affect the measurement. Lay out the colours before assembly and photograph the arrangement for reference."
+      },
+      {
+        "heading": "Choose a manageable next step",
+        "text": "Once you have one reliable square and a joining sample, choose a small project that uses those skills. A decorative panel or a small motif-based accessory can give you a finishable goal without committing to dozens of pieces. Check whether the intended object needs a lining, backing, closure, or particular care routine.\n\nKeep a short project record: pattern, terminology, yarn, hook, round count, prepared square size, joining method, and any changes. Write down a problem you corrected so that the next square starts with that knowledge. Our Granny Square Edit listing introduces the direction of an upcoming PDF collection; it does not provide the finished pattern for these stock photographs. Use a complete pattern with confirmed instructions for the item you decide to make."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can a beginner make a granny square?",
+        "answer": "Yes, with a pattern that explains its stitches, corner shaping, and round endings. Practise chains and the required basic stitch before beginning the motif."
+      },
+      {
+        "question": "Are all granny squares made the same way?",
+        "answer": "No. Traditional open squares, solid squares, and flower-centred motifs can use different starts, stitch groups, and shaping."
+      },
+      {
+        "question": "Why are my squares different sizes?",
+        "answer": "Compare yarn, hook, round count, and tension. Prepare and measure them consistently before deciding whether a change is needed."
+      },
+      {
+        "question": "How many squares do I need?",
+        "answer": "Use the layout and prepared motif measurements in your selected project. Allow for joins and borders rather than using the unjoined square size alone."
+      },
+      {
+        "question": "Is the Granny Square Edit PDF available?",
+        "answer": "The listing is a collection preview. Its final instructions and dimensions are still in preparation."
+      }
+    ],
+    "references": [
+      {
+        "title": "Craft Yarn Council — Standard Yarn Weight System",
+        "url": "https://www.craftyarncouncil.com/standards/yarn-weight-system"
+      },
+      {
+        "title": "Craft Yarn Council — US crochet abbreviations",
+        "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
+      }
+    ]
+  },
+  {
+    "slug": "crochet-coasters-beginner-guide",
+    "title": "Crochet Coasters: A Beginner’s Guide to Yarn, Flat Shapes, and Neat Sets",
+    "category": "Home décor",
+    "description": "Choose yarn and a coaster shape, check that the fabric lies flat, measure against a cup, and make a consistent set with practical finishing and care notes.",
+    "sections": [
+      {
+        "heading": "Begin with the cup, not the colour palette",
+        "text": "A coaster is small enough to finish without a large yarn commitment, but it still asks the fabric to do a job. Start by looking at the cup or glass you intend to use. Notice the width and shape of its base and whether it sits firmly on the table. That gives you a more useful starting point than choosing a diameter from an unrelated photograph.\n\nDecide whether you want a practical everyday coaster or a decorative piece. Open lace can be attractive while providing a different surface from a closely worked square. This guide helps you plan and assess a coaster; it is not a pattern for the blue-and-white photographed design. Follow a complete pattern when you need exact stitch counts, increases, and border instructions."
+      },
+      {
+        "heading": "Choose yarn with washing and fabric in mind",
+        "text": "Smooth cotton is a common choice for household crochet, but read the label rather than relying on the fibre name alone. Compare strand thickness, care instructions, and the feel of a small sample. A tightly worked fabric, a loose fabric, and a textured fabric can behave differently even when they share the same cotton yarn.\n\nThink about how the coaster will be cleaned and who will use it. Different yarns in a mixed-colour set should have compatible care requirements. Keep the label so you can pass on useful washing information if the set becomes a gift. Do not treat a handmade coaster as heat-rated equipment or assume it can protect a table from cookware. Its intended use here is beneath an ordinary drinking vessel, on a surface suited to that use."
+      },
+      {
+        "heading": "Compare a square with a round design",
+        "text": "A square worked in rows lets you practise turning, keeping edge stitches, and repeating a fixed count. It can be a practical choice after the ten-stitch practice rectangle in our beginner guide, although your coaster’s actual starting count and finished size must come from its own pattern. The number of rows matters as well as the number of stitches.\n\nA round coaster adds different tasks: following a start method, recognising the beginning of a round, and placing increases. Joined rounds and continuous rounds also use different ways of marking progress. Choose the construction whose instructions you can follow from the beginning to the final edge. Neither shape is automatically easier for every learner; the clarity of the selected pattern matters more than the label alone.",
+        "image": {
+          "src": "/images/collections/coaster.webp",
+          "alt": "A round blue-and-white crochet coaster photographed from above",
+          "caption": "A real round coaster for comparing overall shape and its outer edge. The exact pattern and dimensions cannot be determined from this photograph.",
+          "width": 1400,
+          "height": 934
+        }
+      },
+      {
+        "heading": "Make one full sample before making a set",
+        "text": "Choose the hook recommended by the pattern and make one coaster all the way through its border. Keep notes of the yarn, hook, stitch counts, and the point where each row or round finishes. A partially finished centre does not tell you whether the final border will lie flat or whether the dimensions suit your cup.\n\nCheck your fabric while it is still easy to undo. Can you see where the hook should enter? Is it comfortable to work without forcing each movement? If the fabric is too stiff or too open for the pattern, check gauge and technique before changing several variables. Completing one careful sample is usually more informative than beginning four coasters that all carry the same unresolved problem."
+      },
+      {
+        "heading": "Check flatness on the table",
+        "text": "Lay the sample on a level surface without holding the edges down. Inspect the centre, the outer edge, and the transition into any decorative border. A practical coaster should give its intended cup a stable place to sit rather than forming a small bowl or a rippled platform. Test it first with an empty, dry cup.\n\nIf a round shape cups or ruffles, compare the stitch count and increase placements with the instructions. Too much or too little fabric can affect flatness, but an incorrect count is not the only possible cause: yarn substitution and uneven tension can matter too. Do not add random increases simply because the edge looks wrong. Find the earliest round that differs from the pattern, and correct that cause before continuing."
+      },
+      {
+        "heading": "Measure after the fabric has been prepared",
+        "text": "Follow the yarn care instructions and the pattern’s preparation notes, then measure the dry sample without stretching it. For a square, record width and height separately. For a round coaster, compare the diameter in more than one direction instead of choosing only its widest point. Keep the border in the measurement if the cup will rest over it.\n\nSet the empty cup on the prepared coaster again and inspect the fit. The base should not balance across a bulky join or catch on a raised embellishment. A decorative photograph cannot provide a reliable measurement because scale, perspective, and cup size are unknown. Record your sample’s actual dimensions; do not describe them as a guaranteed result for another person using a different yarn or tension.",
+        "image": {
+          "src": "/images/collections/coasters-in-use.webp",
+          "alt": "Hands holding a tea cup above several crochet square motifs on a table",
+          "caption": "Real crochet squares in a table setting: compare the size of the intended cup with your own finished sample rather than estimating dimensions from the scene.",
+          "width": 1400,
+          "height": 2488
+        }
+      },
+      {
+        "heading": "Make the finishing comfortable to use",
+        "text": "Finish each yarn end according to the yarn and stitch structure, hiding it without pulling the fabric out of shape. Inspect both faces because either may be visible on a table. A knot or dense bundle of tails directly beneath the cup base can make an otherwise tidy coaster less comfortable to use.\n\nTry the border on the sample before adding it to the rest of a set. Check whether it stays flat and whether its corners or curves follow the intended shape. An elaborate edging is optional unless it is part of the pattern’s construction. For an everyday set, neat, consistent edges may be more useful than a decorative finish that introduces bulk. Trim ends only after checking that the finishing holds during gentle handling."
+      },
+      {
+        "heading": "Repeat the sample consistently",
+        "text": "Once the sample is useful, make the remaining coasters with the same yarn specification, hook, and pattern version. Count rows or rounds rather than stopping only when a piece looks close to the first one. Compare the pieces in the same prepared state so that one washed sample is not being measured against another fresh from the hook.\n\nYou can vary colours while keeping the construction consistent. Write down the colour order, particularly if a border is meant to match across the set. If you want four coasters, plan the yarn for four plus the amount used during sampling and finishing. Use the pattern’s stated length and your own measured usage where available; there is no dependable universal ball count for every coaster size and stitch."
+      },
+      {
+        "heading": "Check care and everyday handling",
+        "text": "A coaster can pick up moisture and marks during use. Follow the yarn label when cleaning it and let it dry fully before storing the set together. Check whether washing changes its size or edge shape, especially before giving several pieces away. Share the care instructions with the recipient instead of relying on a generic handmade label.\n\nInspect the table and drinking vessel as well as the fabric. A crochet coaster is not a guarantee against heat, moisture, scratches, or staining on every finish. If a surface needs specific protection, use an accessory designed for that requirement. Keep the crochet piece’s purpose modest and clear: it is a small household textile whose suitability depends on its materials, construction, condition, and the way it is used."
+      },
+      {
+        "heading": "Use the first coaster as a learning record",
+        "text": "Keep the sample or a photograph of it beside your notes. Record the shape, pattern, yarn, hook, prepared measurements, and any change you made. Add one short observation, such as a border that rippled or a first chain that needed to be looser. That makes your next small project easier to plan without turning every session into a technical exercise.\n\nOur Everyday Coaster Set is an upcoming collection concept. Its photograph shows a real decorative crochet coaster rather than a sample made from our own instructions, and a finished PDF is not yet available. For your next project, choose a complete coaster pattern with the level of explanation you need. Use the checks in this guide to assess the result rather than judging success only by whether it resembles the photograph."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is a coaster a good first crochet project?",
+        "answer": "A simple design can be a useful next step after practising even rows. Read its construction and finishing instructions before choosing it."
+      },
+      {
+        "question": "Do I need cotton yarn?",
+        "answer": "Cotton is common, but use the selected pattern’s materials and check the yarn’s care instructions and finished fabric."
+      },
+      {
+        "question": "Why does my round coaster ripple?",
+        "answer": "Compare the count and increases with the pattern, then check yarn and tension. Do not assume blocking will correct a construction error."
+      },
+      {
+        "question": "What size should a coaster be?",
+        "answer": "Measure the intended cup base and check a finished, prepared sample. There is no single size that suits every drinking vessel."
+      },
+      {
+        "question": "Can I use it under a hot pan?",
+        "answer": "This guide does not provide a tested trivet or heat-resistant design. Use a product specifically suited to cookware and the surface being protected."
+      }
+    ],
+    "references": [
+      {
+        "title": "Craft Yarn Council — Standard Yarn Weight System",
+        "url": "https://www.craftyarncouncil.com/standards/yarn-weight-system"
+      },
+      {
+        "title": "Craft Yarn Council — US crochet abbreviations",
+        "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
+      }
+    ]
+  },
+  {
+    "slug": "crochet-baskets-beginner-guide",
+    "title": "Your First Crochet Basket: A Flat Base, Steady Sides, and Useful Finishing",
+    "category": "Home décor",
+    "description": "Plan a crochet storage basket with guidance on yarn structure, base shape, wall construction, sizing, handles, and finishing checks for beginners.",
+    "sections": [
+      {
+        "heading": "Decide what the basket will organise",
+        "text": "Choose one small storage task before choosing a basket pattern. Yarn balls, folded cloths, and lightweight desk accessories need different shapes and openings. Put the intended contents together and measure the space they occupy. Then think about where the basket will stand: a shelf, table, or cupboard imposes its own limits on width and height.\n\nFor a first project, a modest open basket gives you fewer construction decisions than a tall design with handles and a lid. This guide explains those decisions and the checks to make while working; it is not a stitch-by-stitch pattern for the photographed basket. Use a complete pattern for the starting count, increases, side-wall transition, and finishing. Treat a stock photograph as a visual reference rather than a source of dimensions.",
+        "image": {
+          "src": "/images/collection/crochet-basket.webp",
+          "alt": "Cream textile basket with yarn resting on a wooden stool",
+          "caption": "A real storage arrangement for planning contents and placement. This photo does not establish the dimensions or construction of a Loop & Stitch pattern.",
+          "width": 1400,
+          "height": 2100
+        }
+      },
+      {
+        "heading": "Understand structure before buying thick yarn",
+        "text": "A thicker strand does not automatically make a basket stand up. Structure depends on the yarn, stitch pattern, gauge, base proportions, and height of the sides. A basket made from soft fabric can be useful for some purposes, while a shape expected to hold itself upright needs a different balance of those choices.\n\nRead the selected pattern’s yarn recommendation carefully. Cotton cord, textile yarn, and ordinary knitting yarn can differ substantially in weight, stretch, and handling. Do not substitute one simply because it has a similar colour or appears equally thick. Compare a small sample before committing to a large quantity. Thick, dense fabric can also be tiring to work, so choose a hook and construction that you can handle comfortably."
+      },
+      {
+        "heading": "Make a sample with a comfortable hook",
+        "text": "Start with the pattern’s hook and yarn specification and make the gauge sample it describes. Inspect more than the measured stitch count: notice whether the hook can pass through the fabric without forcing it and whether the sample bends in a way that suits the proposed basket. You should be able to complete the stitches without turning every insertion into a struggle.\n\nIf the sample is too loose or too stiff, change one variable at a time and compare the result with the pattern. A smaller hook may create a denser fabric, but it can also alter dimensions and make the work uncomfortable. Stop and relax your grip when needed. Record the hook in millimetres and keep the yarn label so that later samples can be compared accurately."
+      },
+      {
+        "heading": "Choose a base shape you can follow",
+        "text": "A round base usually asks you to manage increases as the work grows. An oval adds shaping around the ends of a starting section. A rectangular basket may use a separate panel or a base worked around its edges. Read the entire base instruction before deciding that a particular shape is the easiest option.\n\nMark the beginning of rounds or important corners as directed. Compare the stated count at each checkpoint, not only when the base reaches its final size. If the design uses continuous rounds, moving a marker consistently helps you know where a complete round ends. For joined rounds, follow the joining and beginning-chain notes. The physical shape matters, but a flat-looking base with the wrong count can create problems when you begin the sides."
+      },
+      {
+        "heading": "Check the base before building upward",
+        "text": "Set the base on a flat surface and let it rest without pinning the edges down. Look for cupping, waves, or a shape that pulls noticeably to one side. Check the count and increase positions against the pattern before assuming the next round will straighten it. A base that already behaves unpredictably is harder to diagnose after several rounds of side walls.\n\nMeasure its size as the pattern directs. If you need the basket to fit a shelf, account for the finished outer dimensions rather than only the space inside. Do not add an extra increase round to enlarge it unless you understand how that changes the wall instruction and final count. It is easier to choose a pattern in a suitable size than to redesign several connected stages during a first attempt."
+      },
+      {
+        "heading": "Identify the transition from base to walls",
+        "text": "Read the first side-wall round as a separate construction step. Some patterns change the insertion point to define an edge, while others rely on a change in shaping. Working in back loops only is one possible instruction, not a rule to apply automatically to every basket. Follow the exact method and stitch count in the design you chose.\n\nAfter the transition, check which part of the fabric is intended to face outward. Keep markers in place until you can recognise the construction clearly. If the side begins to flare or pull inward unexpectedly, compare the instructions and count before continuing. A turn or change in direction can alter how the fabric looks, so use the pattern’s notes rather than flipping the work solely to make one photograph look familiar."
+      },
+      {
+        "heading": "Check the sides as their height grows",
+        "text": "Place the basket down periodically instead of assessing it only while holding the rim. Look at whether the base remains stable and how the side walls behave under their own weight. A small amount of flexibility can be part of the design; a wall that collapses completely may be unsuitable if you expected an upright container.\n\nCount the wall rounds and watch for accidental increases near the round beginning. Uneven tension can also make one area appear looser. Do not treat a very tight final round as a universal repair for a soft wall: it can distort the opening without changing the fabric below. If your sample’s structure differs substantially from the pattern’s intended result, revisit the materials and gauge before adding decorative features."
+      },
+      {
+        "heading": "Treat handles and trims as construction choices",
+        "text": "Handles affect how the rim is worked and where weight is transferred. Read their placement, attachment, and reinforcement instructions before reaching that stage. A decorative opening is not automatically a suitable lifting handle, and a thicker yarn does not provide a verified carrying capacity. Keep a first storage basket intended for lightweight contents.\n\nFor a beginner project, leaving out optional embellishments can make the finish easier to inspect. If the pattern includes purchased straps, buttons, or a lining, check the additional supplies and any separate care requirements. Avoid guessing an attachment method from a styled photograph. The sample photo in this guide includes leather-like side fittings; those fittings are not instructions for how our upcoming design will be constructed or used.",
+        "image": {
+          "src": "/images/collections/basket-detail.webp",
+          "alt": "Close view of a cream basket rim and side fitting with yarn balls inside",
+          "caption": "A close look at an existing basket and its side fitting. The photograph is inspiration, not an attachment or load-bearing instruction.",
+          "width": 1400,
+          "height": 2100
+        }
+      },
+      {
+        "heading": "Finish for the place where it will live",
+        "text": "Secure yarn ends inside the stitch structure without creating hard lumps beneath the base. Inspect the rim for loose loops that could catch as items are placed inside. Set the finished basket on its intended surface and check it with a few lightweight contents before deciding whether its shape is useful.\n\nFollow the yarn care instructions and let any washed basket dry fully before filling it. If the planned contents include things that can leak or transfer colour, use an appropriate separate container rather than assuming the yarn will protect the surface below. Describe the basket’s intended role and care routine clearly when giving it away."
+      },
+      {
+        "heading": "Record a small prototype before making a larger one",
+        "text": "A completed small basket gives you practical information about the yarn, base, walls, and rim together. Write down the pattern, hook, yarn, counts, and measured outer size. Note how it behaves empty and with the lightweight contents you planned. Those observations are more useful for your next project than guessing that doubling the starting count will produce the same shape at twice the size.\n\nOur Little Storage Basket listing is a collection preview while its PDF specifications are being developed. The real photograph illustrates a storage idea; it is not a sample made from a final Loop & Stitch pattern. Choose a complete pattern when you need confirmed dimensions and instructions. Keep the first finished basket as a reference for the fabric and construction decisions you want to repeat."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why does my basket collapse?",
+        "answer": "Check the pattern’s intended structure, yarn, gauge, proportions, and stitch count. Thick yarn alone does not guarantee upright sides."
+      },
+      {
+        "question": "Should I use a smaller hook?",
+        "answer": "Only after checking a sample and the pattern requirements. A smaller hook changes gauge and can make the work uncomfortable."
+      },
+      {
+        "question": "Why is the base wavy?",
+        "answer": "Inspect the increase placements, counts, yarn substitution, and tension before building the sides."
+      },
+      {
+        "question": "Does every basket use back loops at the base?",
+        "answer": "No. That is one possible transition method. Use the construction written in your chosen pattern."
+      },
+      {
+        "question": "Can I carry heavy items in it?",
+        "answer": "This guide gives no tested carrying capacity. Use the basket for suitable lightweight storage and follow any handle limitations in a completed pattern."
+      }
+    ],
+    "references": [
+      {
+        "title": "Craft Yarn Council — Standard Yarn Weight System",
+        "url": "https://www.craftyarncouncil.com/standards/yarn-weight-system"
+      },
+      {
+        "title": "Craft Yarn Council — US crochet abbreviations",
+        "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
+      }
+    ]
   }
 ];
 
