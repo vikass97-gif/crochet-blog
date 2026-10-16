@@ -8,6 +8,7 @@ export type Post = {
   sections: { heading: string; text: string; image?: PostImage; images?: PostImage[] }[];
   faqs: { question: string; answer: string }[];
   references: { title: string; url: string }[];
+  relatedSlugs: string[];
 };
 
 export const posts: Post[] = [
@@ -144,6 +145,11 @@ export const posts: Post[] = [
         "title": "Craft Yarn Council: yarn weight system",
         "url": "https://www.craftyarncouncil.com/standards/yarn-weight-system"
       }
+    ],
+    "relatedSlugs": [
+      "how-to-crochet-for-beginners",
+      "crochet-tension-and-gauge",
+      "choosing-your-first-crochet-project"
     ]
   },
   {
@@ -334,6 +340,11 @@ export const posts: Post[] = [
         "title": "Craft Yarn Council: chart symbols",
         "url": "https://www.craftyarncouncil.com/standards/crochet-chart-symbols"
       }
+    ],
+    "relatedSlugs": [
+      "how-to-crochet-for-beginners",
+      "granny-squares-for-beginners",
+      "choosing-your-first-crochet-bag"
     ]
   },
   {
@@ -491,6 +502,11 @@ export const posts: Post[] = [
         "title": "Craft Yarn Council: standards and guidelines",
         "url": "https://www.craftyarncouncil.com/standards/"
       }
+    ],
+    "relatedSlugs": [
+      "crochet-coasters-beginner-guide",
+      "granny-squares-for-beginners",
+      "choosing-your-first-crochet-bag"
     ]
   },
   {
@@ -813,6 +829,11 @@ export const posts: Post[] = [
         "title": "Cary Bass-Deschênes — filmed demonstration of single crochet into a foundation chain (CC BY 4.0)",
         "url": "https://commons.wikimedia.org/wiki/File:How_to_crochet_3_sc_into_ch.webm"
       }
+    ],
+    "relatedSlugs": [
+      "essential-crochet-stitches",
+      "how-to-read-a-crochet-pattern",
+      "choosing-your-first-crochet-project"
     ]
   },
   {
@@ -943,6 +964,11 @@ export const posts: Post[] = [
         "title": "Yarnspirations: crochet basics and demonstrations",
         "url": "https://www.yarnspirations.com/pages/basics-of-crochet-for-beginners"
       }
+    ],
+    "relatedSlugs": [
+      "crochet-tension-and-gauge",
+      "how-to-read-a-crochet-pattern",
+      "how-to-finish-crochet-projects"
     ]
   },
   {
@@ -1073,6 +1099,11 @@ export const posts: Post[] = [
         "title": "Craft Yarn Council: reading instructions and basics",
         "url": "https://craftyarncouncil.com/read_instructions.html"
       }
+    ],
+    "relatedSlugs": [
+      "essential-crochet-stitches",
+      "how-to-finish-crochet-projects",
+      "granny-squares-for-beginners"
     ]
   },
   {
@@ -1203,6 +1234,11 @@ export const posts: Post[] = [
         "title": "Yarnspirations: beginner crochet techniques",
         "url": "https://www.yarnspirations.com/pages/basics-of-crochet-for-beginners"
       }
+    ],
+    "relatedSlugs": [
+      "crochet-coasters-beginner-guide",
+      "granny-squares-for-beginners",
+      "choosing-your-first-crochet-bag"
     ]
   },
   {
@@ -1329,6 +1365,11 @@ export const posts: Post[] = [
         "title": "Alyssia Creates — How to Sew a Fabric Lining for a Crochet Bag",
         "url": "https://alyssiacreates.com/how-to-sew-a-fabric-lining-for-a-crochet-bag/"
       }
+    ],
+    "relatedSlugs": [
+      "your-first-crochet-toolkit",
+      "how-to-finish-crochet-projects",
+      "granny-squares-for-beginners"
     ]
   },
   {
@@ -1423,6 +1464,11 @@ export const posts: Post[] = [
         "title": "Craft Yarn Council — US crochet abbreviations",
         "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
       }
+    ],
+    "relatedSlugs": [
+      "how-to-read-a-crochet-pattern",
+      "crochet-tension-and-gauge",
+      "how-to-finish-crochet-projects"
     ]
   },
   {
@@ -1517,6 +1563,11 @@ export const posts: Post[] = [
         "title": "Craft Yarn Council — US crochet abbreviations",
         "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
       }
+    ],
+    "relatedSlugs": [
+      "how-to-crochet-for-beginners",
+      "crochet-tension-and-gauge",
+      "crochet-baskets-beginner-guide"
     ]
   },
   {
@@ -1611,6 +1662,11 @@ export const posts: Post[] = [
         "title": "Craft Yarn Council — US crochet abbreviations",
         "url": "https://www.craftyarncouncil.com/standards/crochet-abbreviations"
       }
+    ],
+    "relatedSlugs": [
+      "crochet-tension-and-gauge",
+      "how-to-finish-crochet-projects",
+      "crochet-coasters-beginner-guide"
     ]
   }
 ];
@@ -1628,4 +1684,11 @@ export function getPostBody(post: Post) {
 
 export function getPostWordCount(post: Post) {
   return getPostBody(post).trim().split(/\s+/).length;
+}
+
+export function getRelatedPosts(post: Post) {
+  return post.relatedSlugs.flatMap(slug => {
+    const related = getPost(slug);
+    return related && related.slug !== post.slug ? [related] : [];
+  }).slice(0, 3);
 }

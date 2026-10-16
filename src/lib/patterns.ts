@@ -4,6 +4,8 @@ export type Pattern = {
   category: string;
   level: "Beginner" | "Confident beginner";
   image: string;
+  imageWidth: number;
+  imageHeight: number;
   alt: string;
   description: string;
   skills: string[];
@@ -48,7 +50,9 @@ export const patterns: Pattern[] = [
     "credit": {
       "name": "Bogdan Groshev",
       "url": "https://www.pexels.com/photo/bouquet-of-crochet-flowers-20269075/"
-    }
+    },
+    "imageWidth": 1400,
+    "imageHeight": 2104
   },
   {
     "slug": "crochet-sunflowers",
@@ -78,7 +82,9 @@ export const patterns: Pattern[] = [
     "credit": {
       "name": "Anurag Jamwal",
       "url": "https://www.pexels.com/photo/colorful-handmade-crochet-floral-arrangements-29753250/"
-    }
+    },
+    "imageWidth": 1400,
+    "imageHeight": 1750
   },
   {
     "slug": "crochet-flower-bouquet",
@@ -109,7 +115,9 @@ export const patterns: Pattern[] = [
     "credit": {
       "name": "Natanael Alves Bezerra",
       "url": "https://www.pexels.com/photo/a-bride-holding-a-bouquet-of-crocheted-flowers-15469188/"
-    }
+    },
+    "imageWidth": 1400,
+    "imageHeight": 2100
   },
   {
     "slug": "everyday-crochet-bag",
@@ -141,7 +149,9 @@ export const patterns: Pattern[] = [
       "name": "Nur Tok",
       "url": "https://www.pexels.com/photo/handmade-crochet-bag-on-checkered-blanket-outdoors-30224894/"
     },
-    "guideSlug": "choosing-your-first-crochet-bag"
+    "guideSlug": "choosing-your-first-crochet-bag",
+    "imageWidth": 1400,
+    "imageHeight": 1866
   },
   {
     "slug": "granny-square-edit",
@@ -172,7 +182,9 @@ export const patterns: Pattern[] = [
       "name": "Ksenia Chernaya",
       "url": "https://www.pexels.com/photo/close-up-shot-of-a-knitted-textile-5806996/"
     },
-    "guideSlug": "granny-squares-for-beginners"
+    "guideSlug": "granny-squares-for-beginners",
+    "imageWidth": 1400,
+    "imageHeight": 2097
   },
   {
     "slug": "everyday-crochet-coasters",
@@ -203,7 +215,9 @@ export const patterns: Pattern[] = [
       "name": "Belén Montero",
       "url": "https://www.pexels.com/photo/blue-and-white-crochet-coaster-on-light-background-36644648/"
     },
-    "guideSlug": "crochet-coasters-beginner-guide"
+    "guideSlug": "crochet-coasters-beginner-guide",
+    "imageWidth": 1400,
+    "imageHeight": 934
   },
   {
     "slug": "little-crochet-storage-basket",
@@ -234,7 +248,9 @@ export const patterns: Pattern[] = [
       "name": "Vlada Karpovich",
       "url": "https://www.pexels.com/photo/yarns-in-a-basket-5602984/"
     },
-    "guideSlug": "crochet-baskets-beginner-guide"
+    "guideSlug": "crochet-baskets-beginner-guide",
+    "imageWidth": 1400,
+    "imageHeight": 2100
   }
 ];
 

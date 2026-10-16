@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { guideImages } from "@/lib/guide-images";
 import { notFound } from "next/navigation";
-import { getPost, posts, getPostBody, getPostWordCount } from "@/lib/posts";
+import { getPost, posts, getPostBody, getPostWordCount, getRelatedPosts } from "@/lib/posts";
 import { patterns } from "@/lib/patterns";
 import { PostCard, readingMinutes } from "@/components/post-card";
 import { JsonLd } from "@/components/json-ld";
@@ -43,8 +43,7 @@ async function ArticleDetails({ params }: Props) {
   const url = base ? new URL(`/blog/${post.slug}`, base).href : undefined;
   const cover = guideImages[post.slug];
   const project = patterns.find(pattern => pattern.guideSlug === post.slug);
-  const techniqueSlugs = ["essential-crochet-stitches", "crochet-tension-and-gauge", "how-to-finish-crochet-projects"];
-  const related = [...posts.filter(item => techniqueSlugs.includes(item.slug)), ...posts.filter(item => !techniqueSlugs.includes(item.slug))].filter(item => item.slug !== post.slug).slice(0, 3);
+  const related = getRelatedPosts(post);
   return <>
     <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/blog">Journal</Link><span aria-hidden="true">/</span><span aria-current="page">{post.category}</span></nav>
     <JsonLd data={{ "@context": "https://schema.org", "@type": "BlogPosting", headline: post.title, description: post.description, image: cover ? new URL(cover.src, base).href : undefined, inLanguage: "en", mainEntityOfPage: url, publisher: { "@type": "Organization", name: siteConfig.name }, articleBody: getPostBody(post), wordCount: getPostWordCount(post) }} />

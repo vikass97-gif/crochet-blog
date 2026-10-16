@@ -30,5 +30,5 @@ export function useSavedPatterns() {
 export function SavePatternButton({ slug, title }: { slug: string; title: string }) {
   const { saved, toggleSaved, storageError } = useSavedPatterns();
   const isSaved = saved.includes(slug);
-  return <div className="product-save"><button className="save-detail" type="button" aria-pressed={isSaved} aria-label={`${isSaved ? "Unsave" : "Save"} ${title}`} onClick={() => toggleSaved(slug)}><span aria-hidden="true">{isSaved ? "♥" : "♡"}</span> {isSaved ? "Saved to your favourites" : "Save for later"}</button><p className="save-note" role="status">{storageError ? "Your browser could not save this favourite. Please check your browser storage settings." : "Favourites are stored on this browser."}</p></div>;
+  return <div className="product-save"><button className="save-detail" type="button" aria-pressed={isSaved} aria-label={`${isSaved ? "Saved to your favourites. Remove" : "Save for later:"} ${title}`} onClick={() => toggleSaved(slug)}><span aria-hidden="true">{isSaved ? "♥" : "♡"}</span> {isSaved ? "Saved to your favourites" : "Save for later"}</button><p className="save-note" role="status">{storageError ? "Your browser could not save this favourite. Please check your browser storage settings." : "Favourites are stored on this browser."}</p></div>;
 }
