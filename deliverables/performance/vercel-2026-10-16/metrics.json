@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-16",
+  "baseURL": "https://crochet-blog-26tq.vercel.app",
+  "mode": "Lighthouse mobile lab on deployed Vercel site; sequential single before/after runs",
+  "runs": [
+    {
+      "name": "home",
+      "stage": "before",
+      "url": "https://crochet-blog-26tq.vercel.app/",
+      "fetchTime": "2026-10-16T13:54:08.823Z",
+      "scores": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 2929.209,
+      "cls": 0,
+      "tbtMs": 48
+    },
+    {
+      "name": "home",
+      "stage": "after",
+      "url": "https://crochet-blog-26tq.vercel.app/",
+      "fetchTime": "2026-10-16T13:59:38.044Z",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 2726.4355,
+      "cls": 0,
+      "tbtMs": 90
+    },
+    {
+      "name": "guide",
+      "stage": "before",
+      "url": "https://crochet-blog-26tq.vercel.app/blog/how-to-crochet-for-beginners",
+      "fetchTime": "2026-10-16T13:54:47.345Z",
+      "scores": {
+        "performance": 77,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 2108.8825,
+      "cls": 0.5577156743620899,
+      "tbtMs": 10
+    },
+    {
+      "name": "guide",
+      "stage": "after",
+      "url": "https://crochet-blog-26tq.vercel.app/blog/how-to-crochet-for-beginners",
+      "fetchTime": "2026-10-16T13:59:50.794Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 2075.5525,
+      "cls": 0,
+      "tbtMs": 4.499999999999886
+    },
+    {
+      "name": "shop",
+      "stage": "before",
+      "url": "https://crochet-blog-26tq.vercel.app/shop",
+      "fetchTime": "2026-10-16T13:55:42.075Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "lcpMs": 1452.578,
+      "cls": 0.005183763177940072,
+      "tbtMs": 5.5
+    },
+    {
+      "name": "shop",
+      "stage": "after",
+      "url": "https://crochet-blog-26tq.vercel.app/shop",
+      "fetchTime": "2026-10-16T14:00:02.360Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "lcpMs": 1775.449,
+      "cls": 0,
+      "tbtMs": 6.5
+    }
+  ],
+  "lighthouseVersion": "13.5.0",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+}
