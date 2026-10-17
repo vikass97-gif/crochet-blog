@@ -21,8 +21,8 @@ export const patterns: Pattern[] = [
   {
     "slug": "crochet-roses",
     "draftDownload": {
-      "url": "/downloads/little-rose-v0.2-draft.pdf",
-      "version": "0.2"
+      "url": "/downloads/little-rose-v0.3-review.pdf",
+      "version": "0.3"
     },
     "title": "Little Crochet Roses",
     "category": "Roses",
