@@ -56,7 +56,6 @@ def newpage(title, kicker):
     c.setFillColor(ACCENT);c.setFont('Helvetica',9);c.drawString(50,H-78,kicker.upper())
     c.setFillColor(INK);c.setFont('Times-Roman',28);c.drawString(50,H-110,title)
     c.setStrokeColor(LINE);c.line(50,58,W-50,58)
-    c.setFillColor(ACCENT);c.setFont('Helvetica-Bold',8);c.drawString(50,42,'WORKING DRAFT - NOT PHYSICALLY TESTED - NOT FOR SALE')
     c.setFillColor(MUTED);c.setFont('Helvetica',8);c.drawRightString(W-50,42,f'{page} / 8')
     y=H-140
 
