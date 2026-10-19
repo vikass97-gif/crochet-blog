@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     return [
       { url: "/downloads/little-rose-v0.2-draft.pdf", filename: "Little-Rose-v0.2-DRAFT.pdf" },
       { url: "/downloads/little-rose-v0.3-review.pdf", filename: "Little-Rose-v0.3-REVIEW.pdf" },
+      { url: "/downloads/little-rose-v0.4-review.pdf", filename: "Little-Rose-v0.4-REVIEW.pdf" },
     ].map(({ url, filename }) => ({
       source: url,
       headers: [
